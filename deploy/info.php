@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'web_server';
-$app['version'] = '2.1.25';
+$app['version'] = '2.3.0';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -41,7 +41,7 @@ $app['requires'] = array(
 );
 
 $app['core_requires'] = array(
-    'app-certificate-manager >= 1:2.1.20',
+    'app-certificate-manager >= 1:2.3.2',
     'app-network-core',
     'app-flexshare-core >= 1:2.1.20',
     'app-php-core >= 1:1.4.40',
