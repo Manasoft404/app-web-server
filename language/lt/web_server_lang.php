@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'slapyvardžiai';
+$lang['web_server_aliases_invalid'] = 'Slapyvardžiai laukas yra negaliojantis.';
+$lang['web_server_app_description'] = 'Web serverio programa gali būti naudojama siekiant sukurti paprastus standalone interneto svetainėse arba kaip dalis platesnės infrastruktūros dislokuoti interneto grindžiamas taikomąsias programas, naudojant technologijas, pavyzdžiui, PHP, MySQL, ir "JavaScript".';
+$lang['web_server_app_name'] = 'tinklo serverio';
+$lang['web_server_configure_default_web_site'] = 'Konfigūruoti Default Web Site';
+$lang['web_server_custom_configuration'] = 'Pasirinktinis konfigūravimas';
+$lang['web_server_custom_configuration_warning'] = 'Seną arba paprotys konfigūracijos failas buvo aptikta, bet jūs vis dar galite konfigūruoti Įkelti prieigos nustatymus naudodami žemiau esančią internetinę formą. Spustelėkite šį mygtuką, kad pradėti naudoti standartinę konfigūraciją generuoja žiniatinklio serverio app.';
+$lang['web_server_directory_alias'] = 'katalogas alias';
+$lang['web_server_file_server_state_invalid'] = 'Failų serverio būklė yra neteisinga.';
+$lang['web_server_file_server_upload'] = 'Failų serveris įkėlimas';
+$lang['web_server_ftp_state_invalid'] = 'FTP būsena yra negaliojantis.';
+$lang['web_server_ftp_upload'] = 'FTP';
+$lang['web_server_group_invalid'] = 'Grupė negalioja.';
+$lang['web_server_hostname_aliases'] = 'hostname Slapyvardžiai';
+$lang['web_server_live_site'] = 'Live Svetainės';
+$lang['web_server_review_standard_configuration'] = 'Peržiūrėkite standartinės konfigūracijos';
+$lang['web_server_server_name'] = 'Serverio pavadinimas';
+$lang['web_server_server_name_invalid'] = 'Neteisingas serverio pavadinimas.';
+$lang['web_server_site_invalid'] = 'Interneto svetainės pavadinimas yra neteisingas.';
+$lang['web_server_test_site'] = 'bandymo vieta';
+$lang['web_server_upload_access'] = 'įkelti Prisijunkite';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Nustatymai';
+$lang['web_server_web_applications'] = 'Web Applications';
+$lang['web_server_web_server'] = 'tinklo serverio';
+$lang['web_server_web_site'] = 'Interneto svetainė';
+$lang['web_server_web_site_hostname'] = 'Svetainės kompiuterio vardas';
+$lang['web_server_web_sites'] = 'Tinklapiai';
