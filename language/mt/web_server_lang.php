@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'psewdonimi';
+$lang['web_server_aliases_invalid'] = 'qasam psewdonimi huwa invalidu.';
+$lang['web_server_app_description'] = 'Il-app Web Server jistgħu jintużaw biex jinħolqu siti sempliċi web standalone jew bħala parti minn infrastruttura usa &#39;biex jitħaddem applikazzjonijiet fuq l-internet li jużaw teknoloġiji simili PHP, MySQL, u JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Kkonfigurat Default Web Site';
+$lang['web_server_custom_configuration'] = 'custom Konfigurazzjoni';
+$lang['web_server_custom_configuration_warning'] = 'Fajl konfigurazzjoni qodma jew il-konswetudini ikunu nkixfu, imma inti xorta tista kkonfigurat l-issettjar ta &#39;aċċess upload permezz tal-formola tal-web t&#39;hawn taħt. Ikklikkja fuq il-buttuna ta &#39;wara li tibda tuża l-konfigurazzjoni standard iġġenerat mill-app Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'istat file server huwa invalidu.';
+$lang['web_server_file_server_upload'] = 'File Server Tella';
+$lang['web_server_ftp_state_invalid'] = 'istat FTP huwa invalidu.';
+$lang['web_server_ftp_upload'] = 'FTP Tella';
+$lang['web_server_group_invalid'] = 'Grupp invalida.';
+$lang['web_server_hostname_aliases'] = 'hostname Psewdonimi';
+$lang['web_server_live_site'] = 'Sit Live';
+$lang['web_server_review_standard_configuration'] = 'Tirrevedi Standard Konfigurazzjoni';
+$lang['web_server_server_name'] = 'server Isem';
+$lang['web_server_server_name_invalid'] = 'isem server invalida.';
+$lang['web_server_site_invalid'] = 'Isem sit web huwa invalidu.';
+$lang['web_server_test_site'] = 'test Sit';
+$lang['web_server_upload_access'] = 'upload Aċċess';
+$lang['web_server_web_application'] = 'web Applikazzjoni';
+$lang['web_server_web_application_settings'] = 'Web Applikazzjoni Settings';
+$lang['web_server_web_applications'] = 'applikazzjonijiet Web';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'web Site';
+$lang['web_server_web_site_hostname'] = 'Hostname Web Site';
+$lang['web_server_web_sites'] = 'Web Sites';
