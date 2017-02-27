@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'उर्फ';
+$lang['web_server_aliases_invalid'] = 'उर्फ फील्ड अवैध आहे.';
+$lang['web_server_app_description'] = 'वेब सर्व्हर अनुप्रयोग सोपे स्वतंत्र वेब साइट तयार करण्यासाठी वापरली जाऊ शकते किंवा PHP, MySQL, व JavaScript सारखी तंत्रज्ञाने वापरून वेब-आधारीत अनुप्रयोग उपयोजित एक व्यापक पायाभूत सुविधा भाग म्हणून.';
+$lang['web_server_app_name'] = 'वेब सर्व्हर';
+$lang['web_server_configure_default_web_site'] = 'मुलभूत वेब साईट संयोजीत करा Name';
+$lang['web_server_custom_configuration'] = 'सानुकूल संरचना';
+$lang['web_server_custom_configuration_warning'] = 'जुनी किंवा इच्छिक संयोजना फाइल आढळला होता, पण आपण तरीही खालील वेब फॉर्म वापरून अपलोड प्रवेश सेटिंग्ज कॉन्फिगर करू शकता. वेब सर्व्हर अनुप्रयोग द्वारे निर्मीत मानक संरचना वापर सुरू करण्यासाठी खालील बटणावर क्लिक करा.';
+$lang['web_server_directory_alias'] = 'निर्देशिका उर्फ';
+$lang['web_server_file_server_state_invalid'] = 'फाइल सर्व्हर स्थिती अवैध आहे.';
+$lang['web_server_file_server_upload'] = 'फाइल सर्व्हर अपलोड करा';
+$lang['web_server_ftp_state_invalid'] = 'FTP, राज्य अवैध आहे.';
+$lang['web_server_ftp_upload'] = 'FTP, अपलोड करा';
+$lang['web_server_group_invalid'] = 'अवैध गट.';
+$lang['web_server_hostname_aliases'] = 'यजमाननाव उर्फ';
+$lang['web_server_live_site'] = 'थेट साइट';
+$lang['web_server_review_standard_configuration'] = 'मानक संरचना पुनरावलोकन';
+$lang['web_server_server_name'] = 'सर्व्हर नाव';
+$lang['web_server_server_name_invalid'] = 'अवैध सर्व्हर नाव.';
+$lang['web_server_site_invalid'] = 'वेब साइट नाव अवैध आहे.';
+$lang['web_server_test_site'] = 'कसोटी साइट';
+$lang['web_server_upload_access'] = 'प्रवेश अपलोड करा';
+$lang['web_server_web_application'] = 'वेब अनुप्रयोग';
+$lang['web_server_web_application_settings'] = 'वेब अनुप्रयोग सेटिंग्ज';
+$lang['web_server_web_applications'] = 'वेब अनुप्रयोग';
+$lang['web_server_web_server'] = 'वेब सर्व्हर';
+$lang['web_server_web_site'] = 'वेब साईट';
+$lang['web_server_web_site_hostname'] = 'वेब साईट यजमाननाव';
+$lang['web_server_web_sites'] = 'वेब साइट';
