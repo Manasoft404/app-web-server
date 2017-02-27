@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = '별칭';
+$lang['web_server_aliases_invalid'] = '별칭 필드가 잘못되었습니다.';
+$lang['web_server_app_description'] = '웹 서버 응용 프로그램은 간단한 독립형 웹 사이트를 만드는 데 사용하거나 할 수 PHP, MySQL은, 자바 스크립트 등의 기술을 사용하여 웹 기반 응용 프로그램을 배포 할 수있는 폭 넓은 인프라의 한 부분으로.';
+$lang['web_server_app_name'] = '웹 서버';
+$lang['web_server_configure_default_web_site'] = '기본 웹 사이트 구성';
+$lang['web_server_custom_configuration'] = '사용자 정의 구성';
+$lang['web_server_custom_configuration_warning'] = '오래 또는 사용자 정의 구성 파일이 발견되었습니다,하지만 당신은 여전히 ​​아래의 웹 양식을 사용하여 업로드 액세스 설정을 구성 할 수 있습니다. 웹 서버 응용 프로그램에 의해 생성 된 표준 구성을 사용하여 시작하려면 다음 버튼을 클릭합니다.';
+$lang['web_server_directory_alias'] = '디렉토리 별칭';
+$lang['web_server_file_server_state_invalid'] = '파일 서버 상태가 잘못되었습니다.';
+$lang['web_server_file_server_upload'] = '서버 업로드 파일';
+$lang['web_server_ftp_state_invalid'] = 'FTP 상태가 잘못되었습니다.';
+$lang['web_server_ftp_upload'] = 'FTP 업로드';
+$lang['web_server_group_invalid'] = '무효의 그룹.';
+$lang['web_server_hostname_aliases'] = '호스트 이름 별명';
+$lang['web_server_live_site'] = '라이브 사이트';
+$lang['web_server_review_standard_configuration'] = '표준 구성을 검토';
+$lang['web_server_server_name'] = '서버 이름';
+$lang['web_server_server_name_invalid'] = '잘못된 서버 이름.';
+$lang['web_server_site_invalid'] = '웹 사이트 이름이 잘못되었습니다.';
+$lang['web_server_test_site'] = '테스트 사이트';
+$lang['web_server_upload_access'] = '액세스 업로드';
+$lang['web_server_web_application'] = '웹 응용 프로그램';
+$lang['web_server_web_application_settings'] = '웹 응용 프로그램 설정';
+$lang['web_server_web_applications'] = '웹 응용 프로그램';
+$lang['web_server_web_server'] = '웹 서버';
+$lang['web_server_web_site'] = '웹 사이트';
+$lang['web_server_web_site_hostname'] = '웹 사이트의 호스트 이름';
+$lang['web_server_web_sites'] = '웹 사이트';
