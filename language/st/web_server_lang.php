@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'mabitso a boikhakanyo';
+$lang['web_server_aliases_invalid'] = 'Mabitso a boikhakanyo tšimo ha o sebetse.';
+$lang['web_server_app_description'] = 'The app e Web Server ka sebelisoa ho bōpa standalone liwebsaete bonolo hakana ho web kapa e le karolo e kholo thepeng e pharaletseng ho romela dikopo ho web thehiloeng sebelisa theknoloji e joaloka PHP, MySQL, &#39;me Javascript.';
+$lang['web_server_app_name'] = 'Server Web';
+$lang['web_server_configure_default_web_site'] = 'Configure Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom phetolo';
+$lang['web_server_custom_configuration_warning'] = 'An faele khale kapa tloaelo eo phetolo ile lemoha, empa u ntse u ka configure di-setting ka jarisa phihlello sebelisa foromong ho web mona ka tlase. Tobetsa konopo e latelang ho qala sebelisa phetolo maemo a generated ke app e Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'File seva puso ha o sebetse.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'puso FTP ha o sebetse.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group a sebetse.';
+$lang['web_server_hostname_aliases'] = 'Hostname mabitso a boikhakanyo e';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Hlahloba Standard phetolo';
+$lang['web_server_server_name'] = 'Name Server';
+$lang['web_server_server_name_invalid'] = 'lebitso seva sebetse.';
+$lang['web_server_site_invalid'] = 'Websaete lebitso ha o sebetse.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'kenya Access';
+$lang['web_server_web_application'] = 'Web Kopo';
+$lang['web_server_web_application_settings'] = 'Settings Web Kopo';
+$lang['web_server_web_applications'] = 'Dikopo Web';
+$lang['web_server_web_server'] = 'Server Web';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Sites Web';
