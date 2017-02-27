@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ezizenak';
+$lang['web_server_aliases_invalid'] = 'Ezizen baliogabea da.';
+$lang['web_server_app_description'] = 'Web Server aplikazioa erabil daiteke standalone simple web guneak sortzeko, edo azpiegitura zabalago baten web-ean oinarritutako aplikazio PHP, MySQL, eta JavaScript bezalako teknologia erabiliz zabaldu zati gisa.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfiguratu Default Web gunea';
+$lang['web_server_custom_configuration'] = 'Configuration pertsonalizatua';
+$lang['web_server_custom_configuration_warning'] = 'konfigurazio fitxategi zahar edo ohitura atzeman, baina igoera sarbidea ezarpenak web beheko formularioa erabiliz oraindik konfigura dezakezu. Egin klik ondorengo botoian Web Server aplikazioak sortutako konfigurazio estandarra erabiltzen hasteko.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Fitxategi zerbitzaria egoera baliogabea da.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP egoera baliogabea da.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'baliogabe Taldeak.';
+$lang['web_server_hostname_aliases'] = 'Hostname Ezizen';
+$lang['web_server_live_site'] = 'Live gunea';
+$lang['web_server_review_standard_configuration'] = 'Berrikusi Standard Configuration';
+$lang['web_server_server_name'] = 'Server Name';
+$lang['web_server_server_name_invalid'] = 'zerbitzari-izen baliogabea.';
+$lang['web_server_site_invalid'] = 'Web gunearen izena baliogabea da.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Igo Access';
+$lang['web_server_web_application'] = 'Web Aplikazioa';
+$lang['web_server_web_application_settings'] = 'Web aplikazioen ezarpenak';
+$lang['web_server_web_applications'] = 'Web aplikazioak';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web gunea';
+$lang['web_server_web_site_hostname'] = 'Web gunea Hostname';
+$lang['web_server_web_sites'] = 'Web Guneak';
