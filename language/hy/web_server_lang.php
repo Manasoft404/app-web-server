@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliases';
+$lang['web_server_aliases_invalid'] = 'Aliases դաշտը անվավեր է:';
+$lang['web_server_app_description'] = 'The Web Server ծրագիրը կարող է օգտագործվել է ստեղծել պարզ standalone վեբ կայքեր, կամ որպես ավելի լայն ենթակառուցվածքի տեղակայելու վեբ վրա հիմնված դիմումները, օգտագործելով տեխնոլոգիաներ, ինչպիսիք PHP, MySQL, եւ JavaScript:';
+$lang['web_server_app_name'] = 'վեբ Server';
+$lang['web_server_configure_default_web_site'] = 'Կարգավորել Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Կազմաձեւման';
+$lang['web_server_custom_configuration_warning'] = 'Ծեր կամ մաքսային կազմաձեւման ֆայլը հայտնաբերվել, բայց դուք կարող եք դեռ կարգավորել վերբեռնել մուտքի պարամետրերը օգտագործելով վեբ ստորեւ բերված ձեւը. Սեղմեք հետեւյալ կոճակը որպեսզի սկսեք օգտագործել ստանդարտ կոնֆիգուրացիան գեներացվել է վեբ սերվերի հավելվածի:';
+$lang['web_server_directory_alias'] = 'Ուղեցույց Alias';
+$lang['web_server_file_server_state_invalid'] = 'Պատկեր սերվեր պետությունն է անվավեր:';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP պետությունն է անվավեր:';
+$lang['web_server_ftp_upload'] = 'FTP Վերբեռնել';
+$lang['web_server_group_invalid'] = 'Խումբը անվավեր:';
+$lang['web_server_hostname_aliases'] = 'Հոսթի անվանում այլանուններ';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Վերանայել ստանդարտ կոնֆիգուրացիա';
+$lang['web_server_server_name'] = 'Server Անունը';
+$lang['web_server_server_name_invalid'] = 'Անվավեր սերվերի անունը:';
+$lang['web_server_site_invalid'] = 'Վեբ կայքի անունը անվավեր է:';
+$lang['web_server_test_site'] = 'test Site';
+$lang['web_server_upload_access'] = 'վերբեռնել Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Կառավարում';
+$lang['web_server_web_applications'] = 'վեբ դիմումները';
+$lang['web_server_web_server'] = 'վեբ Server';
+$lang['web_server_web_site'] = 'վեբ կայքի';
+$lang['web_server_web_site_hostname'] = 'Վեբ կայքի Հոսթի անվանում';
+$lang['web_server_web_sites'] = 'Web Sites';
