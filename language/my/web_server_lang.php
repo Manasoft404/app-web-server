@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'နာမည်တုများ';
+$lang['web_server_aliases_invalid'] = 'နာမည်တုများကိုလယ်မမှန်ကန်ဘူး။';
+$lang['web_server_app_description'] = 'အဆိုပါ Web ကို Server ကို app ကိုရိုးရှင်းတဲ့ကို standalone က်ဘ်ဆိုဒ်များဖန်တီးရန်အသုံးပြုသို့မဟုတ် PHP ကို, Mysql နှင့်, JavaScript ကိုတူနည်းပညာများကို အသုံးပြု. web-based application များလုပ်ငန်းတွေစတင်ဖို့မှကျယ်ပြန့်အခြေခံအဆောက်အဦများ၏တစ်စိတ်တစ်ဒေသအဖြစ်နိုင်ပါသည်။';
+$lang['web_server_app_name'] = 'web ကို Server ကို';
+$lang['web_server_configure_default_web_site'] = 'ပုံမှန်ကျဘျဆိုကျကို configure';
+$lang['web_server_custom_configuration'] = 'စိတ်တိုင်းကျပြုပြင်ဖန်တီး';
+$lang['web_server_custom_configuration_warning'] = 'အဟောင်းသို့မဟုတ်ထုံးစံ configuration file ကိုရှာဖွေတွေ့ရှိခဲ့ပေမယ့်သင်ဆဲအောက်ကဝက်ဘ်ပုံစံကို အသုံးပြု. အပ်လုဒ်ကို access ကို settings တွေကို configure နိုင်ပါတယ်။ Web ကို Server ကို App ကနေထုတ်လုပ်လိုက်တဲ့စံ configuration ကိုစတင်သုံးစွဲဖို့အောက်ပါခလုတ်ကိုကလစ်နှိပ်ပါ။';
+$lang['web_server_directory_alias'] = 'directory ကို Alias';
+$lang['web_server_file_server_state_invalid'] = 'file server ပြည်နယ်မမှန်ကန်ဘူး။';
+$lang['web_server_file_server_upload'] = 'File ကို Server ကိုလွှတ်တင်ခြင်း';
+$lang['web_server_ftp_state_invalid'] = 'FTP ကိုပြည်နယ်မမှန်ကန်ဘူး။';
+$lang['web_server_ftp_upload'] = 'FTP ကိုလွှတ်တင်ခြင်း';
+$lang['web_server_group_invalid'] = 'မမှန်ကန်တဲ့အတွက် Group က။';
+$lang['web_server_hostname_aliases'] = 'hostname အိမ်နာမည်';
+$lang['web_server_live_site'] = 'တိုက်ရိုက်ဆိုက်';
+$lang['web_server_review_standard_configuration'] = 'ဆန်းစစ်ခြင်းနျ Standard Configuration';
+$lang['web_server_server_name'] = 'Server ကိုအမည်';
+$lang['web_server_server_name_invalid'] = 'မှားနေသောဆာဗာကိုအမည်ဖြစ်တယ်။';
+$lang['web_server_site_invalid'] = 'web site ကိုအမည်မမှန်ကန်ပါ။';
+$lang['web_server_test_site'] = 'စာမေးပွဲဆိုက်ကို';
+$lang['web_server_upload_access'] = 'Access ကို Upload လုပ်ပါ';
+$lang['web_server_web_application'] = 'web ကိုလျှောက်လွှာ';
+$lang['web_server_web_application_settings'] = 'Web ကိုလျှောက်လွှာက Settings';
+$lang['web_server_web_applications'] = 'web ကိုအသုံးပြုခြင်း';
+$lang['web_server_web_server'] = 'web ကို Server ကို';
+$lang['web_server_web_site'] = 'ကျဘျဆိုကျ';
+$lang['web_server_web_site_hostname'] = 'ကျဘျဆိုကျ hostname';
+$lang['web_server_web_sites'] = 'web ကိုဆိုဒ်များ';
