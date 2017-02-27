@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Majina bandia';
+$lang['web_server_aliases_invalid'] = 'Majina bandia shamba ni batili.';
+$lang['web_server_app_description'] = 'programu Web Server inaweza kutumika kujenga ilio maeneo rahisi mtandao au kama sehemu ya miundombinu pana kupeleka maombi mtandao msingi kwa kutumia teknolojia kama PHP, MySQL, na JavaScript.';
+$lang['web_server_app_name'] = 'Server mtandao';
+$lang['web_server_configure_default_web_site'] = 'Sanidi chaguo-msingi dunia Tovuti';
+$lang['web_server_custom_configuration'] = 'desturi Configuration';
+$lang['web_server_custom_configuration_warning'] = 'file zamani au desturi Configuration alikuwa wanaona, lakini bado unaweza configure mazingira upload upatikanaji kutumia fomu mtandao hapa chini. Bonyeza kifungo kufuatia kuanza kutumia Configuration kiwango cha yanayotokana na programu Web Server.';
+$lang['web_server_directory_alias'] = 'Saraka Alias';
+$lang['web_server_file_server_state_invalid'] = 'Faili server hali ni batili.';
+$lang['web_server_file_server_upload'] = 'Faili Server Pakia';
+$lang['web_server_ftp_state_invalid'] = 'hali FTP ni batili.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group katika batili.';
+$lang['web_server_hostname_aliases'] = 'Jina la mpangishaji Majina bandia';
+$lang['web_server_live_site'] = 'kuishi site';
+$lang['web_server_review_standard_configuration'] = 'Kupitia Standard Configuration';
+$lang['web_server_server_name'] = 'Jina server';
+$lang['web_server_server_name_invalid'] = 'jina server batili.';
+$lang['web_server_site_invalid'] = 'Tovuti jina ni batili.';
+$lang['web_server_test_site'] = 'mtihani site';
+$lang['web_server_upload_access'] = 'Weka Access';
+$lang['web_server_web_application'] = 'mtandao Maombi';
+$lang['web_server_web_application_settings'] = 'Mazingira Mtandao Maombi';
+$lang['web_server_web_applications'] = 'Maombi mtandao';
+$lang['web_server_web_server'] = 'Server mtandao';
+$lang['web_server_web_site'] = 'Tovuti';
+$lang['web_server_web_site_hostname'] = 'Tovuti Hostname';
+$lang['web_server_web_sites'] = 'Maeneo mtandao';
