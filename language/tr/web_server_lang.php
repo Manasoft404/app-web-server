@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Diğer adlar';
+$lang['web_server_aliases_invalid'] = 'Takma adlar alan geçersiz.';
+$lang['web_server_app_description'] = 'Web Sunucusu uygulaması basit bağımsız web siteleri oluşturmak için kullanılabilir veya PHP, MySQL ve JavaScript gibi teknolojileri kullanarak web tabanlı uygulamaları dağıtmak için geniş bir altyapı parçası olarak.';
+$lang['web_server_app_name'] = 'Web sunucusu';
+$lang['web_server_configure_default_web_site'] = 'Varsayılan Web sitesi yapılandırma';
+$lang['web_server_custom_configuration'] = 'özel Yapılandırma';
+$lang['web_server_custom_configuration_warning'] = 'Eski bir veya özel yapılandırma dosyası tespit edildi, ancak yine de aşağıdaki web formunu kullanarak yükleme erişim ayarlarını yapılandırabilirsiniz. Web Sunucusu uygulaması tarafından oluşturulan standart yapılandırmayı kullanarak başlatmak için aşağıdaki düğmeye tıklayın.';
+$lang['web_server_directory_alias'] = 'dizin diğer adı';
+$lang['web_server_file_server_state_invalid'] = 'Dosya sunucusu durumu geçersiz.';
+$lang['web_server_file_server_upload'] = 'Sunucu Yükleme Dosya';
+$lang['web_server_ftp_state_invalid'] = 'FTP durumu geçersiz.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Geçersiz Grup.';
+$lang['web_server_hostname_aliases'] = 'Hostadı Aliases';
+$lang['web_server_live_site'] = 'Canlı Sitesi';
+$lang['web_server_review_standard_configuration'] = 'Standart Yapılandırma gözden';
+$lang['web_server_server_name'] = 'Sunucu adı';
+$lang['web_server_server_name_invalid'] = 'Geçersiz sunucu adı.';
+$lang['web_server_site_invalid'] = 'Web sitesi adı geçersiz.';
+$lang['web_server_test_site'] = 'Test Alanı';
+$lang['web_server_upload_access'] = 'Erişim yükle';
+$lang['web_server_web_application'] = 'Web Uygulaması';
+$lang['web_server_web_application_settings'] = 'Web Uygulama Ayarları';
+$lang['web_server_web_applications'] = 'Web Uygulamaları';
+$lang['web_server_web_server'] = 'Web sunucusu';
+$lang['web_server_web_site'] = 'Web sitesi';
+$lang['web_server_web_site_hostname'] = 'Web Sitesi Hostadı';
+$lang['web_server_web_sites'] = 'Web Siteleri';
