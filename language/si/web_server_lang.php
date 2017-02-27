@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'යළි-යොමුවීම්';
+$lang['web_server_aliases_invalid'] = 'යළි-යොමුවීම් ක්ෂේත්රයේ වලංගු නැත.';
+$lang['web_server_app_description'] = 'වෙබ් සේවාදායකය යෙදුම සරල නවීන වෙබ් අඩවි නිර්මාණය කිරීමට භාවිතා හෝ, PHP, MySql, හා JavaScript වැනි තාක්ෂණයන් භාවිතා වෙබ් අඩවි පදනම් කරගත් අයදුම්පත් යෙදවීමට පුලුල් යටිතල පහසුකම් කොටසක් ලෙස ගත හැක.';
+$lang['web_server_app_name'] = 'වෙබ් සේවාදායකය';
+$lang['web_server_configure_default_web_site'] = 'මානන්න පෙරනිමි වෙබ් අඩවිය';
+$lang['web_server_custom_configuration'] = 'රේගු මානකරනය';
+$lang['web_server_custom_configuration_warning'] = 'පැරණි හෝ චාරිත්රයක් මානකරන ගොනුව හමු නොවිනි, එහෙත් ඔබ තවමත් පහත වෙබ් පෝරමය භාවිතා උඩුගත ප්රවේශ සැකසුම් සැකසිය හැක. වෙබ් සේවාදායකය යෙදුම මගින් ජනනය කරන ලද සම්මත වින්යාසය භාවිතා ආරම්භ වීමට පහත දැක්වෙන බොත්තම මත ක්ලික් කරන්න.';
+$lang['web_server_directory_alias'] = 'නාමාවලිය අන්වර්ථ';
+$lang['web_server_file_server_state_invalid'] = 'ගොනුව සේවාදායකයට රාජ්ය වලංගු නැත.';
+$lang['web_server_file_server_upload'] = 'ගොනුව සේවාදායකය උඩුගත';
+$lang['web_server_ftp_state_invalid'] = 'FTP රාජ්ය වලංගු නැත.';
+$lang['web_server_ftp_upload'] = 'FTP උඩුගත';
+$lang['web_server_group_invalid'] = 'අවලංගු තුළ සමූහයේ.';
+$lang['web_server_hostname_aliases'] = 'ධාරක නාමය යොමුවීම්';
+$lang['web_server_live_site'] = 'සජීවි අඩවිය';
+$lang['web_server_review_standard_configuration'] = 'සමාලෝචන සම්මත මානකරනය';
+$lang['web_server_server_name'] = 'සේවාදායක නම';
+$lang['web_server_server_name_invalid'] = 'වලංගු නොවන සේවාදායකයේ නම.';
+$lang['web_server_site_invalid'] = 'වෙබ් අඩවිය නම වලංගු නැත.';
+$lang['web_server_test_site'] = 'ටෙස්ට් අඩවිය';
+$lang['web_server_upload_access'] = 'උඩුගත කරන්න ප්රවේශ';
+$lang['web_server_web_application'] = 'වෙබ් ඉල්ලුම්';
+$lang['web_server_web_application_settings'] = 'වෙබ් අයදුම් සැකසුම්';
+$lang['web_server_web_applications'] = 'වෙබ් අයදුම්පත්';
+$lang['web_server_web_server'] = 'වෙබ් සේවාදායකය';
+$lang['web_server_web_site'] = 'වෙබ් අඩවිය';
+$lang['web_server_web_site_hostname'] = 'වෙබ් අඩවිය ධාරක නාමය';
+$lang['web_server_web_sites'] = 'වෙබ් අඩවි';
