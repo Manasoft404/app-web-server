@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'холбоосууд';
+$lang['web_server_aliases_invalid'] = 'Холбоосууд талбар нь хүчин төгөлдөр бус байна.';
+$lang['web_server_app_description'] = 'Web Server програм, эсвэл энгийн дан вэб сайт үүсгэхийн тулд ашиглаж болно PHP, MySQL, мөн JavaScript гэх мэт технологийг ашиглан вэб-д суурилсан програм босгох нь өргөн дэд бүтцийн нэг хэсэг юм.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Default утга нь веб сайт тохируулна';
+$lang['web_server_custom_configuration'] = 'Custom тохиргоо';
+$lang['web_server_custom_configuration_warning'] = 'Хуучин эсвэл өөрчлөн тохируулсан тохиргооны файл нь илэрсэн байсан ч та доорх вэб маягтыг ашиглан оруулах хандалтын тохиргоог болно. Web Server апп-аар үүсгэсэн стандарт тохиргоог ашиглаж эхлэхэд дараах товч дээр дарна уу.';
+$lang['web_server_directory_alias'] = 'лавлах Alias';
+$lang['web_server_file_server_state_invalid'] = 'Файл сервер төрийн хүчин төгөлдөр бус байна.';
+$lang['web_server_file_server_upload'] = 'Файл сервер байршуулах';
+$lang['web_server_ftp_state_invalid'] = 'FTP төрийн хүчин төгөлдөр бус байна.';
+$lang['web_server_ftp_upload'] = 'FTP оруулах';
+$lang['web_server_group_invalid'] = 'хүчингүй групп.';
+$lang['web_server_hostname_aliases'] = 'Хостын нэр Aliases';
+$lang['web_server_live_site'] = 'Live Сайтын';
+$lang['web_server_review_standard_configuration'] = 'Стандарт тохиргоо тойм';
+$lang['web_server_server_name'] = 'Server нэр';
+$lang['web_server_server_name_invalid'] = 'Буруу серверийн нэр.';
+$lang['web_server_site_invalid'] = 'Вэб сайт нэр хүчин төгөлдөр бус байна.';
+$lang['web_server_test_site'] = 'Туршилтын Сайтын';
+$lang['web_server_upload_access'] = 'Access зургаа upload хийнэ үү';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Тохиргоо';
+$lang['web_server_web_applications'] = 'Вэб хэрэглээ';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Вэб сайт';
+$lang['web_server_web_site_hostname'] = 'Вэб сайт Хостын нэр';
+$lang['web_server_web_sites'] = 'Вэб сайтууд';
