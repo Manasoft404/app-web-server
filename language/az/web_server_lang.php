@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'adlar';
+$lang['web_server_aliases_invalid'] = 'Adlar sahəsində yanlışdır.';
+$lang['web_server_app_description'] = 'Web Server app sadə bağımsız web sites yaratmaq üçün istifadə edilə bilər PHP, MySQL, və JavaScript kimi texnologiyalardan istifadə web-based applications dağıtmak üçün geniş infrastrukturun bir hissəsi kimi.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Default Web Site konfiqurasiya';
+$lang['web_server_custom_configuration'] = 'Custom Konfiqurasiya';
+$lang['web_server_custom_configuration_warning'] = 'Köhnə və ya xüsusi konfiqurasiya faylı təsbit edildi, ancaq siz hələ də aşağıdakı web formu istifadə upload giriş parametrləri konfiqurasiya edə bilərsiniz. Web Server app tərəfindən yaradılan standart konfiqurasiya istifadə edərək başlamaq üçün aşağıdakı &#39;düyməsinə basın.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'File server dövlət yanlışdır.';
+$lang['web_server_file_server_upload'] = 'Server yüklə Fayl';
+$lang['web_server_ftp_state_invalid'] = 'FTP dövlət yanlışdır.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'etibarsız Qrup.';
+$lang['web_server_hostname_aliases'] = 'Hostname adlar';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Standard Konfiqurasiya gözdən';
+$lang['web_server_server_name'] = 'Server adı';
+$lang['web_server_server_name_invalid'] = 'Yanlış server adı.';
+$lang['web_server_site_invalid'] = 'Web site səhvdir.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Access yüklə';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'Web Applications';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
