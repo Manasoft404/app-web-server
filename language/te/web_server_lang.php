@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'మారుపేర్ల';
+$lang['web_server_aliases_invalid'] = 'మారు ఫీల్డ్ చెల్లదు.';
+$lang['web_server_app_description'] = 'వెబ్ సర్వర్ అప్లికేషన్ లేదా సాధారణ స్వతంత్ర వెబ్ సైట్లు సృష్టించడానికి ఉపయోగించవచ్చు PHP, MySQL, మరియు JavaScript వంటి సాంకేతికతలను ఉపయోగించి వెబ్ ఆధారిత అనువర్తనాలను అమలు చేయడానికి ఒక విస్తృత మౌలిక భాగంగా.';
+$lang['web_server_app_name'] = 'వెబ్ సర్వర్';
+$lang['web_server_configure_default_web_site'] = 'డిఫాల్ట్ వెబ్ సైట్ ఆకృతీకరించుటకు';
+$lang['web_server_custom_configuration'] = 'కస్టమ్ ఆకృతీకరణ';
+$lang['web_server_custom_configuration_warning'] = 'పాత లేదా కస్టమ్ ఆకృతీకరణ ఫైలు కనుగొనబడింది, కానీ మీరు ఇప్పటికీ క్రింది వెబ్ ఫారమ్ ఉపయోగించి అప్లోడ్ యాక్సెస్ సెట్టింగ్లను కాన్ఫిగర్ చేయవచ్చు. వెబ్ సర్వర్ అనువర్తనం ద్వారా రూపొందించబడిన ప్రామాణిక ఆకృతీకరణ ఉపయోగించి ప్రారంభించడానికి క్రింది బటన్ పై క్లిక్.';
+$lang['web_server_directory_alias'] = 'డైరెక్టరీ అలియాస్';
+$lang['web_server_file_server_state_invalid'] = 'ఫైలు సర్వర్ రాష్ట్ర చెల్లదు.';
+$lang['web_server_file_server_upload'] = 'ఫైలు సర్వర్ అప్లోడ్';
+$lang['web_server_ftp_state_invalid'] = 'FTP రాష్ట్ర చెల్లదు.';
+$lang['web_server_ftp_upload'] = 'FTP అప్లోడ్';
+$lang['web_server_group_invalid'] = 'చెల్లని లో గ్రూప్.';
+$lang['web_server_hostname_aliases'] = 'అతిథేయిపేరు మారు';
+$lang['web_server_live_site'] = 'ప్రత్యక్ష సైట్';
+$lang['web_server_review_standard_configuration'] = 'ప్రామాణిక ఆకృతీకరణ సమీక్షించండి';
+$lang['web_server_server_name'] = 'సర్వర్ పేరు';
+$lang['web_server_server_name_invalid'] = 'చెల్లని సర్వర్ పేరు.';
+$lang['web_server_site_invalid'] = 'వెబ్ సైట్ పేరు చెల్లనిది.';
+$lang['web_server_test_site'] = 'టెస్ట్ సైట్';
+$lang['web_server_upload_access'] = 'యాక్సెస్ అప్లోడ్';
+$lang['web_server_web_application'] = 'వెబ్ అప్లికేషన్';
+$lang['web_server_web_application_settings'] = 'వెబ్ అప్లికేషన్ సెట్టింగులు';
+$lang['web_server_web_applications'] = 'వెబ్ అప్లికేషన్స్';
+$lang['web_server_web_server'] = 'వెబ్ సర్వర్';
+$lang['web_server_web_site'] = 'వెబ్ సైట్';
+$lang['web_server_web_site_hostname'] = 'వెబ్ సైట్ హోస్ట్ పేరు';
+$lang['web_server_web_sites'] = 'వెబ్ సైట్లు';
