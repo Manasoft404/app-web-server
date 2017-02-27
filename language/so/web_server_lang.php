@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'magacyadooda';
+$lang['web_server_aliases_invalid'] = 'beerta magacyadooda waa baadil.';
+$lang['web_server_app_description'] = 'app Server Web waxaa loo isticmaali karaa si ay u abuuraan goobo web standalone fudud ama qayb ka mid ah kaabayaasha ballaaran oo lagu geeyo codsiyada web-ku salaysan oo isticmaalaya teknoolajiyada sida PHP, MySQL, iyo JavaScript.';
+$lang['web_server_app_name'] = 'Server Web';
+$lang['web_server_configure_default_web_site'] = 'Haggaaji Site Web Default';
+$lang['web_server_custom_configuration'] = 'Custom-haggaajin';
+$lang['web_server_custom_configuration_warning'] = 'file An qaabeynta jir ah ama caadada waxaa la ogaado, laakiin aad weli reserved kartaa goobaha helaan Upload isticmaalaya foomka internetka ee hoos ku. Riix badhanka soo socda si ay u bilaabaan isticmaalaya qaabeynta caadiga ah ee ay app Server Web ah.';
+$lang['web_server_directory_alias'] = 'Directory Magaca';
+$lang['web_server_file_server_state_invalid'] = 'gobolka server File waa baadil.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'gobolka FTP waa baadil.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group in aan waxba ka jirin.';
+$lang['web_server_hostname_aliases'] = 'Hostname magacyadooda';
+$lang['web_server_live_site'] = 'Site Live';
+$lang['web_server_review_standard_configuration'] = 'Dib Standard-haggaajin';
+$lang['web_server_server_name'] = 'server Name';
+$lang['web_server_server_name_invalid'] = 'magaca server aan sax ahayn.';
+$lang['web_server_site_invalid'] = 'Magaca Website-kan waa khalad.';
+$lang['web_server_test_site'] = 'Site Test';
+$lang['web_server_upload_access'] = 'Kasoorar Access';
+$lang['web_server_web_application'] = 'Web Codsiga';
+$lang['web_server_web_application_settings'] = 'Settings Codsiga Web';
+$lang['web_server_web_applications'] = 'Codsiyada Web';
+$lang['web_server_web_server'] = 'Server Web';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Hostname Web Site';
+$lang['web_server_web_sites'] = 'Goobaha Web';
