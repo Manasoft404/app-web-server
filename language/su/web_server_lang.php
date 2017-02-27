@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Aliases';
+$lang['web_server_aliases_invalid'] = 'widang Aliases téh sah.';
+$lang['web_server_app_description'] = 'Aplikasi Web Server bisa dipaké pikeun nyieun loka web mandiri basajan atawa salaku bagian tina infrastruktur lega nyebarkeun aplikasi basis web ngagunakeun téknologi kawas PHP, MySQL, jeung JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Ngonpigurasikeun Loka Web standar';
+$lang['web_server_custom_configuration'] = 'Konfigurasi adat';
+$lang['web_server_custom_configuration_warning'] = 'Hiji file konfigurasi heubeul atawa adat ieu kauninga, tapi anjeun masih bisa ngonpigurasikeun setelan aksés upload ngagunakeun bentuk web di handap ieu. Klik tombol di handap pikeun ngamimitian maké Konfigurasi standar dihasilkeun ku app Web Server.';
+$lang['web_server_directory_alias'] = 'Diréktori Alias';
+$lang['web_server_file_server_state_invalid'] = 'state File server anu sah.';
+$lang['web_server_file_server_upload'] = 'Gambar Server pépéling';
+$lang['web_server_ftp_state_invalid'] = 'state ftp téh sah.';
+$lang['web_server_ftp_upload'] = 'ftp pépéling';
+$lang['web_server_group_invalid'] = 'Group dina sah.';
+$lang['web_server_hostname_aliases'] = 'Hostname Aliases';
+$lang['web_server_live_site'] = 'Live Loka';
+$lang['web_server_review_standard_configuration'] = 'Marios Standar Konfigurasi';
+$lang['web_server_server_name'] = 'server Ngaran';
+$lang['web_server_server_name_invalid'] = 'ngaran server sah.';
+$lang['web_server_site_invalid'] = 'ngaran loka ramat anu sah.';
+$lang['web_server_test_site'] = 'test Loka';
+$lang['web_server_upload_access'] = 'munggah Access';
+$lang['web_server_web_application'] = 'Aplikasi web';
+$lang['web_server_web_application_settings'] = 'Setélan Aplikasi Web';
+$lang['web_server_web_applications'] = 'Aplikasi web';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'Loka web';
+$lang['web_server_web_site_hostname'] = 'Hostname Loka Web';
+$lang['web_server_web_sites'] = 'loka web';
