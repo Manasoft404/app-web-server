@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'alias';
+$lang['web_server_aliases_invalid'] = 'Alias ​​patlang ay hindi wasto.';
+$lang['web_server_app_description'] = 'Ang Web Server app ay maaaring gamitin upang lumikha ng mga simpleng standalone web site o bilang bahagi ng isang mas malawak na imprastraktura upang lumawak web-based na mga aplikasyon gamit ang teknolohiya tulad ng PHP, MySQL, at JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'I-configure ang Default na Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Ang isang lumang o pasadyang configuration file ay natagpuan, ngunit maaari mo pa ring i-configure ang mga setting ng pag-upload access gamit ang web form sa ibaba. Mag-click sa ang mga sumusunod na pindutan upang simulan ang paggamit ng standard configuration nagmula sa app Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'File server estado ay hindi wasto.';
+$lang['web_server_file_server_upload'] = 'File Server I-upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP estado ay hindi wasto.';
+$lang['web_server_ftp_upload'] = 'FTP upload';
+$lang['web_server_group_invalid'] = 'Group sa hindi wasto.';
+$lang['web_server_hostname_aliases'] = 'hostname Alias';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Suriin Standard Configuration';
+$lang['web_server_server_name'] = 'Pangalan ng server';
+$lang['web_server_server_name_invalid'] = 'Di-wastong pangalan server.';
+$lang['web_server_site_invalid'] = 'Pangalan Web site ay hindi wasto.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Mag-upload ng Access';
+$lang['web_server_web_application'] = 'web Application';
+$lang['web_server_web_application_settings'] = 'Settings Web Application';
+$lang['web_server_web_applications'] = 'web Application';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'Website';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'web Sites';
