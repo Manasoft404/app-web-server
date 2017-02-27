@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'alias';
+$lang['web_server_aliases_invalid'] = 'Alias ​​fältet är ogiltigt.';
+$lang['web_server_app_description'] = 'Web Server-appen kan användas för att skapa enkla fristående webbsidor eller som en del av en bredare infrastruktur för att distribuera webbaserade applikationer med tekniker som PHP, MySQL och JavaScript.';
+$lang['web_server_app_name'] = 'Webbserver';
+$lang['web_server_configure_default_web_site'] = 'Konfigurera standardwebbplatsen';
+$lang['web_server_custom_configuration'] = 'anpassad konfiguration';
+$lang['web_server_custom_configuration_warning'] = 'En gammal eller anpassad konfigurationsfil upptäcktes, men du kan fortfarande konfigurera inställningar uppladdning rullstol med hjälp av webbformuläret nedan. Klicka på följande för att börja använda standardkonfigurationen som genereras av webbservern appen.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Filserver tillstånd är ogiltigt.';
+$lang['web_server_file_server_upload'] = 'Filserver upp';
+$lang['web_server_ftp_state_invalid'] = 'FTP tillstånd är ogiltigt.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Grupp i ett ogiltigt.';
+$lang['web_server_hostname_aliases'] = 'värdnamn Alias';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Granska standardkonfiguration';
+$lang['web_server_server_name'] = 'Server namn';
+$lang['web_server_server_name_invalid'] = 'Ogiltigt servernamn.';
+$lang['web_server_site_invalid'] = 'Webbplatsens namn är ogiltigt.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'ladda upp Tillträde';
+$lang['web_server_web_application'] = 'Webbapplikation';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'webb~~POS=TRUNC';
+$lang['web_server_web_server'] = 'Webbserver';
+$lang['web_server_web_site'] = 'Hemsida';
+$lang['web_server_web_site_hostname'] = 'Web Site Värd';
+$lang['web_server_web_sites'] = 'webbplatser';
