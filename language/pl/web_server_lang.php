@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'pseudonimy';
+$lang['web_server_aliases_invalid'] = 'Pole aliasy jest nieprawidłowy.';
+$lang['web_server_app_description'] = 'Aplikacja Web Server może być wykorzystywane do tworzenia prostych stron internetowych samodzielne lub jako część szerszej infrastruktury wdrażanie aplikacji webowych z wykorzystaniem technologii takich jak PHP, MySQL i JavaScript.';
+$lang['web_server_app_name'] = 'Serwer internetowy';
+$lang['web_server_configure_default_web_site'] = 'Skonfiguruj Default Web Site';
+$lang['web_server_custom_configuration'] = 'Konfiguracja niestandardowa';
+$lang['web_server_custom_configuration_warning'] = 'Plik konfiguracyjny stary lub niestandardowy został wykryty, ale wciąż można skonfigurować ustawienia dostępu przesyłać za pomocą formularza internetowego poniżej. Kliknij na poniższy przycisk, by zacząć używać standardowej konfiguracji generowany przez aplikację Web Server.';
+$lang['web_server_directory_alias'] = 'katalog Alias';
+$lang['web_server_file_server_state_invalid'] = 'Stan serwera plików jest nieprawidłowy.';
+$lang['web_server_file_server_upload'] = 'Serwer plików Prześlij';
+$lang['web_server_ftp_state_invalid'] = 'Stan FTP jest nieprawidłowy.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Grupa w nieprawidłowy.';
+$lang['web_server_hostname_aliases'] = 'hostname Pseudonimy';
+$lang['web_server_live_site'] = 'Site żywo';
+$lang['web_server_review_standard_configuration'] = 'Sprawdź w konfiguracji standardowej';
+$lang['web_server_server_name'] = 'Nazwa serwera';
+$lang['web_server_server_name_invalid'] = 'Nieprawidłowa nazwa serwera.';
+$lang['web_server_site_invalid'] = 'nazwa witryny sieci Web jest nieprawidłowy.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Dodaj dostęp';
+$lang['web_server_web_application'] = 'Aplikacja internetowa';
+$lang['web_server_web_application_settings'] = 'Ustawienia aplikacji WWW';
+$lang['web_server_web_applications'] = 'Aplikacje internetowe';
+$lang['web_server_web_server'] = 'Serwer internetowy';
+$lang['web_server_web_site'] = 'Stronie internetowej';
+$lang['web_server_web_site_hostname'] = 'Nazwa hosta Web Site';
+$lang['web_server_web_sites'] = 'Strony internetowe';
