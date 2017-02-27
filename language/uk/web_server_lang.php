@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'псевдоніми';
+$lang['web_server_aliases_invalid'] = 'Псевдоніми поля є недійсним.';
+$lang['web_server_app_description'] = 'Додаток Web-сервер може бути використаний для створення простих автономних веб-сайтів або як частина більш широкої інфраструктури для розгортання веб-додатків з використанням технологій, таких як PHP, MySQL і JavaScript.';
+$lang['web_server_app_name'] = 'веб-сервер';
+$lang['web_server_configure_default_web_site'] = 'Налаштування Default Web Site';
+$lang['web_server_custom_configuration'] = 'призначені для користувача настройки';
+$lang['web_server_custom_configuration_warning'] = 'Старий або призначений для користувача конфігураційний файл був виявлений, але ви все ще можете налаштувати параметри доступу для завантаження за допомогою веб-форму нижче. Натисніть на наступну кнопку, щоб почати використовувати стандартну конфігурацію, що генерується додатком веб-сервера.';
+$lang['web_server_directory_alias'] = 'довідник Алиас';
+$lang['web_server_file_server_state_invalid'] = 'стан файлового сервера недійсний.';
+$lang['web_server_file_server_upload'] = 'Файловий сервер Завантажити';
+$lang['web_server_ftp_state_invalid'] = 'FTP стан є недійсним.';
+$lang['web_server_ftp_upload'] = 'FTP Завантажити';
+$lang['web_server_group_invalid'] = 'Група в недійсні.';
+$lang['web_server_hostname_aliases'] = 'псевдоніми Hostname';
+$lang['web_server_live_site'] = 'живий сайт';
+$lang['web_server_review_standard_configuration'] = 'Огляд стандартної конфігурації';
+$lang['web_server_server_name'] = 'ім&#39;я сервера';
+$lang['web_server_server_name_invalid'] = 'Неправильне ім&#39;я сервера.';
+$lang['web_server_site_invalid'] = 'Ім&#39;я веб-сайту є недійсним.';
+$lang['web_server_test_site'] = 'місце випробувань';
+$lang['web_server_upload_access'] = 'Завантажити Access';
+$lang['web_server_web_application'] = 'веб-додаток';
+$lang['web_server_web_application_settings'] = 'Налаштування веб-додатків';
+$lang['web_server_web_applications'] = 'веб-додатки';
+$lang['web_server_web_server'] = 'веб-сервер';
+$lang['web_server_web_site'] = 'веб-сайт';
+$lang['web_server_web_site_hostname'] = 'Hostname Веб-сайт';
+$lang['web_server_web_sites'] = 'веб-сайти';
