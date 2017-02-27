@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'उपनाम';
+$lang['web_server_aliases_invalid'] = 'उपनाम क्षेत्र अमान्य छ।';
+$lang['web_server_app_description'] = 'वेब सर्भर अनुप्रयोग सरल स्ट्यान्ड वेब साइटहरू सिर्जना गर्न प्रयोग गर्न सकिन्छ वा PHP, MySQL, र जाभास्क्रिप्ट जस्ता प्रविधिहरू प्रयोग वेब-आधारित आवेदन फैलिनु फराकिलो पूर्वाधार भागको रूपमा।';
+$lang['web_server_app_name'] = 'वेब सर्भर';
+$lang['web_server_configure_default_web_site'] = 'पूर्वनिर्धारित वेब साइट कन्फिगर';
+$lang['web_server_custom_configuration'] = 'अनुकूलन कन्फिगरेसन';
+$lang['web_server_custom_configuration_warning'] = 'पुरानो वा कस्टम कन्फिगरेसन फाइल फेला पर्यो, तर तपाईं अझै पनि तल वेब फारम प्रयोग गरेर अपलोड पहुँच सेटिङ कन्फिगर गर्न सक्नुहुन्छ। वेब सर्भर अनुप्रयोग द्वारा उत्पन्न मानक कन्फिगरेसन प्रयोग गर्न निम्न बटन क्लिक गर्नुहोस्।';
+$lang['web_server_directory_alias'] = 'निर्देशिका उपनाम';
+$lang['web_server_file_server_state_invalid'] = 'फाइल सर्भर राज्य अमान्य छ।';
+$lang['web_server_file_server_upload'] = 'सर्भर अपलोड फाइल';
+$lang['web_server_ftp_state_invalid'] = 'एफटीपी राज्य अमान्य छ।';
+$lang['web_server_ftp_upload'] = 'एफटीपी अपलोड';
+$lang['web_server_group_invalid'] = 'अवैध मा समूह।';
+$lang['web_server_hostname_aliases'] = 'होस्टनाम उपनाम';
+$lang['web_server_live_site'] = 'प्रत्यक्ष साइट';
+$lang['web_server_review_standard_configuration'] = 'मानक कन्फिगरेसन समीक्षा';
+$lang['web_server_server_name'] = 'सर्भर नाम';
+$lang['web_server_server_name_invalid'] = 'अवैध सर्भर नाम।';
+$lang['web_server_site_invalid'] = 'वेब साइट नाम अवैध छ।';
+$lang['web_server_test_site'] = 'परीक्षण साइट';
+$lang['web_server_upload_access'] = 'पहुँच अपलोड';
+$lang['web_server_web_application'] = 'वेब अनुप्रयोग';
+$lang['web_server_web_application_settings'] = 'वेब अनुप्रयोग सेटिङहरू';
+$lang['web_server_web_applications'] = 'वेब आवेदन';
+$lang['web_server_web_server'] = 'वेब सर्भर';
+$lang['web_server_web_site'] = 'वेब साइट';
+$lang['web_server_web_site_hostname'] = 'वेब साइट होस्टनाम';
+$lang['web_server_web_sites'] = 'वेब साइटहरु';
