@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Iziteketiso';
+$lang['web_server_aliases_invalid'] = 'Iziteketiso Inkambu ayivumelekile.';
+$lang['web_server_app_description'] = 'Insiza Web Server ingasetshenziswa ukwakha elula ezimele kumawebhusayithi noma njengengxenye ye ingqalasizinda ibanda phaka izicelo web-based ubuchwepheshe like PHP, MySQL, futhi JavaScript.';
+$lang['web_server_app_name'] = 'Server Web';
+$lang['web_server_configure_default_web_site'] = 'Lungiselela Okuzenzakalelayo Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Ukucushwa';
+$lang['web_server_custom_configuration_warning'] = 'An ifayela ukumisa elidala noma inkambiso itholiwe, kodwa ungakwazi namanje ukumisa izilungiselelo ukufinyelela yokulayisha ngokusebenzisa ifomu lewebhu ngezansi. Chofoza inkinobho elandelayo ukuqala ukusebenzisa ukucushwa standard ezikhiqizwe lokusebenza Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'isimo iseva Ifayela ayivumelekile.';
+$lang['web_server_file_server_upload'] = 'Ifayela Layisha Server';
+$lang['web_server_ftp_state_invalid'] = 'FTP state ayivumelekile.';
+$lang['web_server_ftp_upload'] = 'FTP Layisha';
+$lang['web_server_group_invalid'] = 'Group in engavumelekile.';
+$lang['web_server_hostname_aliases'] = 'Igama lomethuleli Iziteketiso';
+$lang['web_server_live_site'] = 'Ibhayisikobho Live';
+$lang['web_server_review_standard_configuration'] = 'Bukeza Standard Ukucushwa';
+$lang['web_server_server_name'] = 'Igama leseva';
+$lang['web_server_server_name_invalid'] = 'Igama leseva elingalungile.';
+$lang['web_server_site_invalid'] = 'Igama Web site alivumelekile.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Layisha Ukufinyelela';
+$lang['web_server_web_application'] = '-Inthanethi';
+$lang['web_server_web_application_settings'] = 'Izilungiselelo Web Application';
+$lang['web_server_web_applications'] = 'Web Izicelo';
+$lang['web_server_web_server'] = 'Server Web';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Igama lomethuleli Web Site';
+$lang['web_server_web_sites'] = 'Amasayithi Web';
