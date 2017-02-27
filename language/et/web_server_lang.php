@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Varjunimede';
+$lang['web_server_aliases_invalid'] = 'Varjunimede valdkonnas on kehtetu.';
+$lang['web_server_app_description'] = 'Veebiserveri rakendus saab kasutada, et luua lihtne standalone veebilehtede või osana laiemast infrastruktuuri kasutada veebipõhiseid rakendusi, kasutades tehnoloogiaid nagu PHP, MySQL ja JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfigureerida vaikimisi kodulehekülg';
+$lang['web_server_custom_configuration'] = 'kohandatud seadistused';
+$lang['web_server_custom_configuration_warning'] = 'Vana või kohandatud konfiguratsiooni fail on avastatud, kuid saate konfigureerida üleslaadimise juurdepääsu seaded kasutades veebivormi allpool. LINK nuppu kasutama hakata standard konfiguratsiooni loodud Web Server app.';
+$lang['web_server_directory_alias'] = 'Kataloog Alias';
+$lang['web_server_file_server_state_invalid'] = 'Failiserver riik on kehtetu.';
+$lang['web_server_file_server_upload'] = 'Failiserver Laadi';
+$lang['web_server_ftp_state_invalid'] = 'FTP riik on kehtetu.';
+$lang['web_server_ftp_upload'] = 'FTP üleslaadimine';
+$lang['web_server_group_invalid'] = 'Grupi kehtetuks.';
+$lang['web_server_hostname_aliases'] = 'hostname Aliased';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Vaadake Standard Configuration';
+$lang['web_server_server_name'] = 'Serveri nimi';
+$lang['web_server_server_name_invalid'] = 'Vale serveri nimi.';
+$lang['web_server_site_invalid'] = 'Veebisait nimi on kehtetu.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Lae Access';
+$lang['web_server_web_application'] = 'veebirakenduse';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'Web Applications';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
