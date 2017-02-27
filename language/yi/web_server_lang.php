@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ייליאַסיז';
+$lang['web_server_aliases_invalid'] = 'ייליאַסיז פעלד איז פאַרקריפּלט.';
+$lang['web_server_app_description'] = 'די וועב סערווער אַפּ קענען זיין געניצט צו שאַפֿן פּשוט סטאַנדאַלאָנע וועב זייטלעך אָדער ווי טייל פון אַ ברייטערער Infrastructure צו צעוויקלען וועב-באזירט אַפּלאַקיישאַנז ניצן טעקנאַלאַדזשיז ווי PHP, מיסקל, און דזשאַוואַסקריפּט.';
+$lang['web_server_app_name'] = 'וועב סערווירער';
+$lang['web_server_configure_default_web_site'] = 'Configure Default וועב מאַפּע';
+$lang['web_server_custom_configuration'] = 'מנהג קאָנפיגוראַטיאָן';
+$lang['web_server_custom_configuration_warning'] = 'אַן אַלט אָדער מנהג קאָנפיגוראַטיאָן טעקע איז דיטעקטיד, אָבער איר קענען נאָך configure די צופֿעליקער צוטריט סעטטינגס ניצן די וועב פאָרעם אונטן. דריקט אויף די ווייַטערדיק קנעפּל צו אָנהייבן ניצן די סטאַנדאַרט קאָנפיגוראַטיאָן דזשענערייטאַד דורך די וועב סערווירער אַפּ.';
+$lang['web_server_directory_alias'] = 'דירעקטארי אַליאַס';
+$lang['web_server_file_server_state_invalid'] = 'טעקע סערווירער שטאַט איז פאַרקריפּלט.';
+$lang['web_server_file_server_upload'] = 'טעקע סערווירער צופֿעליקער';
+$lang['web_server_ftp_state_invalid'] = 'FTP שטאַט איז פאַרקריפּלט.';
+$lang['web_server_ftp_upload'] = 'FTP צופֿעליקער';
+$lang['web_server_group_invalid'] = 'גרופּע אין פאַרקריפּלט.';
+$lang['web_server_hostname_aliases'] = 'האָסטנאַמע אַליאַסעס';
+$lang['web_server_live_site'] = 'לעבן מאַפּע';
+$lang['web_server_review_standard_configuration'] = 'תגובה נאָרמאַל קאָנפיגוראַטיאָן';
+$lang['web_server_server_name'] = 'סערווירער נאָמען';
+$lang['web_server_server_name_invalid'] = 'אינוואליד סערווירער נאָמען.';
+$lang['web_server_site_invalid'] = 'וועב פּלאַץ נאָמען איז פאַרקריפּלט.';
+$lang['web_server_test_site'] = 'טעסט מאַפּע';
+$lang['web_server_upload_access'] = 'צופֿעליקער אַקסעס';
+$lang['web_server_web_application'] = 'וועב אַפּלאַקיישאַן';
+$lang['web_server_web_application_settings'] = 'וועב אַפּלאַקיישאַן סעטטינגס';
+$lang['web_server_web_applications'] = 'וועב אַפּפּליקאַטיאָנס';
+$lang['web_server_web_server'] = 'וועב סערווירער';
+$lang['web_server_web_site'] = 'וועב מאַפּע';
+$lang['web_server_web_site_hostname'] = 'וועב מאַפּע האָסטנאַמע';
+$lang['web_server_web_sites'] = 'וועב זייטלעך';
