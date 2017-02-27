@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'นามแฝง';
+$lang['web_server_aliases_invalid'] = 'ฟิลด์นามแฝงไม่ถูกต้อง';
+$lang['web_server_app_description'] = 'แอปพลิเค Web Server สามารถนำมาใช้ในการสร้างเว็บไซต์แบบสแตนด์อโลนง่ายหรือเป็นส่วนหนึ่งของโครงสร้างพื้นฐานที่กว้างขึ้นในการปรับใช้งานบนเว็บโดยใช้เทคโนโลยีเช่น PHP, MySQL, และ JavaScript';
+$lang['web_server_app_name'] = 'เว็บเซิร์ฟเวอร์';
+$lang['web_server_configure_default_web_site'] = 'กำหนดค่าเริ่มต้นเว็บไซต์';
+$lang['web_server_custom_configuration'] = 'การกำหนดค่าที่กำหนดเอง';
+$lang['web_server_custom_configuration_warning'] = 'ไฟล์เก่าหรือการกำหนดค่าที่กำหนดเองได้รับการตรวจพบ แต่คุณยังสามารถตั้งค่าการเข้าถึงอัปโหลดโดยใช้แบบฟอร์มเว็บด้านล่าง คลิกที่ปุ่มต่อไปนี้เพื่อเริ่มใช้การกำหนดค่ามาตรฐานที่สร้างขึ้นโดยการตรวจสอบเว็บเซิร์ฟเวอร์';
+$lang['web_server_directory_alias'] = 'นามแฝงของไดเรกทอรี';
+$lang['web_server_file_server_state_invalid'] = 'รัฐไฟล์เซิร์ฟเวอร์ไม่ถูกต้อง';
+$lang['web_server_file_server_upload'] = 'อัพโหลดไฟล์เซิร์ฟเวอร์';
+$lang['web_server_ftp_state_invalid'] = 'รัฐ FTP ไม่ถูกต้อง';
+$lang['web_server_ftp_upload'] = 'FTP อัพโหลด';
+$lang['web_server_group_invalid'] = 'ในกลุ่มที่ไม่ถูกต้อง';
+$lang['web_server_hostname_aliases'] = 'ชื่อโฮสต์นามแฝง';
+$lang['web_server_live_site'] = 'เว็บไซต์สด';
+$lang['web_server_review_standard_configuration'] = 'ตรวจสอบการกำหนดค่ามาตรฐาน';
+$lang['web_server_server_name'] = 'ชื่อเซิร์ฟเวอร์';
+$lang['web_server_server_name_invalid'] = 'ชื่อเซิร์ฟเวอร์ไม่ถูกต้อง';
+$lang['web_server_site_invalid'] = 'ชื่อเว็บไซต์ไม่ถูกต้อง';
+$lang['web_server_test_site'] = 'ทดสอบเว็บไซต์';
+$lang['web_server_upload_access'] = 'อัปโหลดการเข้าถึง';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application การตั้งค่า';
+$lang['web_server_web_applications'] = 'การใช้งานเว็บ';
+$lang['web_server_web_server'] = 'เว็บเซิร์ฟเวอร์';
+$lang['web_server_web_site'] = 'เว็บไซต์';
+$lang['web_server_web_site_hostname'] = 'ชื่อโฮสต์เว็บไซต์';
+$lang['web_server_web_sites'] = 'เว็บไซต์';
