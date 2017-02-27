@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ឈ្មោះក្លែងក្លាយ';
+$lang['web_server_aliases_invalid'] = 'វាលឈ្មោះក្លែងក្លាយមិនត្រឹមត្រូវ។';
+$lang['web_server_app_description'] = 'កម្មវិធីម៉ាស៊ីនបម្រើបណ្ដាញអាចត្រូវបានប្រើដើម្បីបង្កើតតំបន់បណ្ដាញដែលឈរតែឯងធម្មតាឬជាផ្នែកមួយនៃហេដ្ឋារចនាសម្ព័ន្ធកម្មវិធីទូលំទូលាយដើម្បីដាក់ពង្រាយបណ្តាញដែលមានមូលដ្ឋានដោយប្រើប្រាស់បច្ចេកវិទ្យាដូចកម្មវិធី PHP, MySQL, និង JavaScript ។';
+$lang['web_server_app_name'] = 'ម៉ាស៊ីនបម្រើបណ្ដាញ';
+$lang['web_server_configure_default_web_site'] = 'កំណត់រចនាសម្ព័ន្ធគេហទំព័រលំនាំដើម';
+$lang['web_server_custom_configuration'] = 'ការកំណត់រចនាសម្ព័ន្ធផ្ទាល់ខ្លួន';
+$lang['web_server_custom_configuration_warning'] = 'ឯកសារកំណត់រចនាសម្ព័ន្ធចាស់ឬផ្ទាល់ខ្លួនត្រូវបានរកឃើញនោះទេប៉ុន្តែអ្នកនៅតែអាចកំណត់រចនាសម្ព័ន្ធការកំណត់សិទ្ធិចូលដំណើរការផ្ទុកឡើងដោយប្រើសំណុំបែបបទបណ្តាញខាងក្រោម។ ចុចលើប៊ូតុងខាងក្រោមដើម្បីចាប់ផ្តើមដោយប្រើការកំណត់រចនាសម្ព័ន្ធស្តង់ដាដែលបានបង្កើតដោយកម្មវិធីម៉ាស៊ីនបម្រើបណ្ដាញ។';
+$lang['web_server_directory_alias'] = 'ថតឈ្មោះក្លែងក្លាយ';
+$lang['web_server_file_server_state_invalid'] = 'រដ្ឋម៉ាស៊ីនបម្រើឯកសារមិនត្រឹមត្រូវ។';
+$lang['web_server_file_server_upload'] = 'ឯកសារផ្ទុកឡើងរបស់ម៉ាស៊ីនបម្រើ';
+$lang['web_server_ftp_state_invalid'] = 'រដ្ឋ FTP គឺមិនត្រឹមត្រូវ។';
+$lang['web_server_ftp_upload'] = 'ផ្ទុកឡើង FTP របស់';
+$lang['web_server_group_invalid'] = 'Group ក្នុងមិនត្រឹមត្រូវ។';
+$lang['web_server_hostname_aliases'] = 'ឈ្មោះក្លែងក្លាយឈ្មោះម៉ាស៊ីន';
+$lang['web_server_live_site'] = 'តំបន់បណ្តាញបន្តផ្ទាល់';
+$lang['web_server_review_standard_configuration'] = 'ពិនិត្យឡើងវិញនូវការកំណត់រចនាសម្ព័ន្ធស្តង់ដា';
+$lang['web_server_server_name'] = 'ឈ្មោះម៉ាស៊ីនបម្រើ';
+$lang['web_server_server_name_invalid'] = 'ឈ្មោះម៉ាស៊ីនបម្រើមិនត្រឹមត្រូវ។';
+$lang['web_server_site_invalid'] = 'ឈ្មោះតំបន់បណ្តាញមិនត្រឹមត្រូវ។';
+$lang['web_server_test_site'] = 'តំបន់បណ្តាញការធ្វើតេស្ត';
+$lang['web_server_upload_access'] = 'ការចូលដំណើរការផ្ទុកឡើង';
+$lang['web_server_web_application'] = 'កម្មវិធីបណ្តាញ';
+$lang['web_server_web_application_settings'] = 'ការកំណត់កម្មវិធីបណ្តាញ';
+$lang['web_server_web_applications'] = 'កម្មវិធីបណ្តាញ';
+$lang['web_server_web_server'] = 'ម៉ាស៊ីនបម្រើបណ្ដាញ';
+$lang['web_server_web_site'] = 'គេហទំព័រ';
+$lang['web_server_web_site_hostname'] = 'ឈ្មោះម៉ាស៊ីនគេហទំព័រ';
+$lang['web_server_web_sites'] = 'គេហទំព័រ';
