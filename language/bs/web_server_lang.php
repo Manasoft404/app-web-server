@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Nadimci';
+$lang['web_server_aliases_invalid'] = 'Nadimci polje je nevažeća.';
+$lang['web_server_app_description'] = 'Aplikacija Web Server se može koristiti za stvaranje jednostavnih samostalni web stranice ili kao dio šireg infrastrukture za implementaciju web-bazirane aplikacije koristeći tehnologije kao što su PHP, MySQL, i JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfigurirajte Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Stari ili običaj konfiguracijske datoteke je otkrivena, ali i dalje možete konfigurirati postavke pristupne upload pomoću web obrazac u nastavku. Kliknite na sljedeću tipku za početak koristeći standardnu ​​konfiguraciju generira web servera aplikaciju.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'poslužitelj datoteka država je nevažeća.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP država je nevažeća.';
+$lang['web_server_ftp_upload'] = 'FTP upload';
+$lang['web_server_group_invalid'] = 'Grupa u nevažeći.';
+$lang['web_server_hostname_aliases'] = 'hostname Nadimci';
+$lang['web_server_live_site'] = 'live Site';
+$lang['web_server_review_standard_configuration'] = 'Komentar Standard Configuration';
+$lang['web_server_server_name'] = 'server Name';
+$lang['web_server_server_name_invalid'] = 'Nevažeće ime servera.';
+$lang['web_server_site_invalid'] = 'ime web stranice je nevažeća.';
+$lang['web_server_test_site'] = 'test Site';
+$lang['web_server_upload_access'] = 'upload Access';
+$lang['web_server_web_application'] = 'Web aplikacija';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'Web aplikacije';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web stranice';
+$lang['web_server_web_site_hostname'] = 'Web stranice Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
