@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliasse';
+$lang['web_server_aliases_invalid'] = 'Aliasse veld is ongeldig.';
+$lang['web_server_app_description'] = 'Die Web Server app kan gebruik word om eenvoudige selfstandige webwerwe te skep of as deel van &#39;n breër infrastruktuur om web-gebaseerde programme met behulp van tegnologie soos PHP, MySQL, en JavaScript ontplooi.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Instel Standaard Webwerf';
+$lang['web_server_custom_configuration'] = 'persoonlike verstellings';
+$lang['web_server_custom_configuration_warning'] = '&#39;N ou of persoonlike konfigurasielêer is bespeur, maar jy kan nog steeds die toegang oplaai instellings met behulp van die web vorm hieronder in te stel. Klik op die volgende knoppie om te begin met behulp van die standaard opset wat gegenereer word deur die Web bediener app.';
+$lang['web_server_directory_alias'] = 'Gids Alias';
+$lang['web_server_file_server_state_invalid'] = 'Lêerbediener staat is ongeldig.';
+$lang['web_server_file_server_upload'] = 'Lêerbediener oplaai';
+$lang['web_server_ftp_state_invalid'] = 'FTP staat is ongeldig.';
+$lang['web_server_ftp_upload'] = 'FTP oplaai';
+$lang['web_server_group_invalid'] = 'Groep in ongeldig.';
+$lang['web_server_hostname_aliases'] = 'gasheernaam Aliassen';
+$lang['web_server_live_site'] = 'Live webwerf';
+$lang['web_server_review_standard_configuration'] = 'Hersien verstekwaarde';
+$lang['web_server_server_name'] = 'bediener Naam';
+$lang['web_server_server_name_invalid'] = 'Ongeldige bediener naam.';
+$lang['web_server_site_invalid'] = 'Webwerf naam is ongeldig.';
+$lang['web_server_test_site'] = 'toets site';
+$lang['web_server_upload_access'] = 'laai Toegang';
+$lang['web_server_web_application'] = 'web Aansoek';
+$lang['web_server_web_application_settings'] = 'Web Aansoek Stellings';
+$lang['web_server_web_applications'] = 'web Aansoeke';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'webwerf';
+$lang['web_server_web_site_hostname'] = 'Webwerf Hostname';
+$lang['web_server_web_sites'] = 'web Sites';
