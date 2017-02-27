@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ਉਪਨਾਮ';
+$lang['web_server_aliases_invalid'] = 'ਉਪਨਾਮ ਖੇਤਰ ਗਲਤ ਹੈ.';
+$lang['web_server_app_description'] = 'ਵੈੱਬ ਸਰਵਰ ਐਪ ਜ ਸਧਾਰਨ ਇੱਕਲੇ ਵੈੱਬ ਸਾਈਟ ਬਣਾਉਣ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਇੱਕ ਵਿਆਪਕ ਬੁਨਿਆਦੀ PHP, MySQL, ਅਤੇ ਜਾਵਾ ਵਰਗੇ ਤਕਨਾਲੋਜੀ ਵਰਤ ਕੇ ਵੈੱਬ-ਅਧਾਰਿਤ ਕਾਰਜ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਦੇ ਹਿੱਸੇ ਦੇ ਤੌਰ ਤੇ.';
+$lang['web_server_app_name'] = 'ਵੈੱਬ ਸਰਵਰ';
+$lang['web_server_configure_default_web_site'] = 'ਦੀ ਸੰਰਚਨਾ ਮੂਲ ਵੈੱਬ ਸਾਈਟ';
+$lang['web_server_custom_configuration'] = 'ਕਸਟਮ ਸੰਰਚਨਾ';
+$lang['web_server_custom_configuration_warning'] = 'ਇੱਕ ਪੁਰਾਣੇ ਜ ਕਸਟਮ ਸੰਰਚਨਾ ਫਾਇਲ ਖੋਜਿਆ ਗਿਆ ਸੀ, ਪਰ ਤੁਹਾਨੂੰ ਹਾਲੇ ਵੀ ਹੇਠ ਵੈਬ ਫਾਰਮ ਵਰਤ ਕੇ ਅੱਪਲੋਡ ਪਹੁੰਚ ਸੈਟਿੰਗ ਦੀ ਸੰਰਚਨਾ ਕਰ ਸਕਦੇ ਹੋ. ਹੇਠ ਬਟਨ &#39;ਤੇ ਕਲਿੱਕ ਕਰੋ ਵੈੱਬ ਸਰਵਰ ਐਪ ਦੁਆਰਾ ਤਿਆਰ ਮਿਆਰੀ ਸੰਰਚਨਾ ਵਰਤ ਸ਼ੁਰੂ ਕਰਨ ਲਈ.';
+$lang['web_server_directory_alias'] = 'ਡਾਇਰੈਕਟਰੀ ਉਪ';
+$lang['web_server_file_server_state_invalid'] = 'ਫਾਇਲ ਸਰਵਰ ਨੂੰ ਰਾਜ ਗਲਤ ਹੈ.';
+$lang['web_server_file_server_upload'] = 'ਫਾਇਲ ਸਰਵਰ ਅੱਪਲੋਡ';
+$lang['web_server_ftp_state_invalid'] = 'FTP, ਰਾਜ ਦੇ ਗਲਤ ਹੈ.';
+$lang['web_server_ftp_upload'] = 'FTP, ਅੱਪਲੋਡ';
+$lang['web_server_group_invalid'] = 'ਗਲਤ ਵਿਚ ਗਰੁੱਪ.';
+$lang['web_server_hostname_aliases'] = 'ਹੋਸਟ-ਉਪਨਾਮ';
+$lang['web_server_live_site'] = 'ਲਾਈਵ ਸਾਈਟ';
+$lang['web_server_review_standard_configuration'] = 'ਸਮੀਖਿਆ ਮਿਆਰੀ ਸੰਰਚਨਾ';
+$lang['web_server_server_name'] = 'ਸਰਵਰ ਨਾਮ';
+$lang['web_server_server_name_invalid'] = 'ਗਲਤ ਸਰਵਰ ਨਾਮ.';
+$lang['web_server_site_invalid'] = 'ਵੈੱਬ ਸਾਈਟ ਦਾ ਨਾਮ ਗਲਤ ਹੈ.';
+$lang['web_server_test_site'] = 'ਟੈਸਟ ਸਾਈਟ';
+$lang['web_server_upload_access'] = 'ਅੱਪਲੋਡ ਪਹੁੰਚ';
+$lang['web_server_web_application'] = 'ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨ';
+$lang['web_server_web_application_settings'] = 'ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨ ਸੈਟਿੰਗ';
+$lang['web_server_web_applications'] = 'ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨ';
+$lang['web_server_web_server'] = 'ਵੈੱਬ ਸਰਵਰ';
+$lang['web_server_web_site'] = 'ਵੈੱਬ ਸਾਈਟ';
+$lang['web_server_web_site_hostname'] = 'ਵੈੱਬ ਸਾਈਟ ਹੋਸਟ';
+$lang['web_server_web_sites'] = 'ਵੈੱਬ ਸਾਈਟਸ';
