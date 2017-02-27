@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'vzdevki';
+$lang['web_server_aliases_invalid'] = 'Vzdevki polje je neveljavna.';
+$lang['web_server_app_description'] = 'Aplikacija Web Server se lahko uporablja za ustvarjanje preprostih spletnih strani samostojne ali kot del širšega infrastrukture napotili spletnih aplikacij z uporabo tehnologij, kot so PHP, MySQL, in JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfiguracija privzetega spletnega mesta';
+$lang['web_server_custom_configuration'] = 'Konfiguracija po meri';
+$lang['web_server_custom_configuration_warning'] = 'je bila odkrita stara ali po meri konfiguracijsko datoteko, vendar še vedno lahko konfigurirate nastavitve dostopa upload prek obrazca na spletni spodaj. Kliknite na ta gumb, da začnete uporabljati standardno konfiguracijo, ki nastane z aplikacijo Web Server.';
+$lang['web_server_directory_alias'] = 'Imenik Alias';
+$lang['web_server_file_server_state_invalid'] = 'Stanje server datoteka je neveljavna.';
+$lang['web_server_file_server_upload'] = 'Datoteka Server prenos';
+$lang['web_server_ftp_state_invalid'] = 'FTP stanje je neveljavna.';
+$lang['web_server_ftp_upload'] = 'FTP Nalaganje';
+$lang['web_server_group_invalid'] = 'Skupina v neveljavna.';
+$lang['web_server_hostname_aliases'] = 'Ime gostitelja Vzdevki';
+$lang['web_server_live_site'] = 'živo Site';
+$lang['web_server_review_standard_configuration'] = 'Pregledati Standardna konfiguracija';
+$lang['web_server_server_name'] = 'Ime strežnika';
+$lang['web_server_server_name_invalid'] = 'Neveljavno ime strežnika.';
+$lang['web_server_site_invalid'] = 'Ime spletna stran je neveljavna.';
+$lang['web_server_test_site'] = 'Testna stran';
+$lang['web_server_upload_access'] = 'nalaganje dostop';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Nastavitve Web Application';
+$lang['web_server_web_applications'] = 'Spletne aplikacije';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'spletna stran';
+$lang['web_server_web_site_hostname'] = 'Ime gostitelja spletne strani';
+$lang['web_server_web_sites'] = 'Spletne strani';
