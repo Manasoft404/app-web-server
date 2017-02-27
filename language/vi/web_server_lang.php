@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'bí danh';
+$lang['web_server_aliases_invalid'] = 'lĩnh vực bí danh là không hợp lệ.';
+$lang['web_server_app_description'] = 'Các ứng dụng Web Server có thể được sử dụng để tạo ra các trang web đơn giản độc lập hoặc là một phần của cơ sở hạ tầng rộng lớn hơn để triển khai các ứng dụng dựa trên web sử dụng các công nghệ như PHP, MySQL, và JavaScript.';
+$lang['web_server_app_name'] = 'Máy chủ web';
+$lang['web_server_configure_default_web_site'] = 'Cấu hình Default Web Site';
+$lang['web_server_custom_configuration'] = 'Cấu hình tùy chỉnh';
+$lang['web_server_custom_configuration_warning'] = 'Một tập tin cấu hình cũ hoặc tùy chỉnh đã được phát hiện, nhưng bạn vẫn có thể cấu hình các thiết lập quyền truy cập tải lên bằng cách sử dụng mẫu web bên dưới. Click vào nút dưới đây để bắt đầu sử dụng các cấu hình tiêu chuẩn được tạo ra bởi các ứng dụng Web Server.';
+$lang['web_server_directory_alias'] = 'thư mục Bí danh';
+$lang['web_server_file_server_state_invalid'] = 'tình trạng máy chủ tập tin không hợp lệ.';
+$lang['web_server_file_server_upload'] = 'Nộp chủ Tải lên';
+$lang['web_server_ftp_state_invalid'] = 'nhà nước FTP là không hợp lệ.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Nhóm không hợp lệ.';
+$lang['web_server_hostname_aliases'] = 'hostname biệt hiệu';
+$lang['web_server_live_site'] = 'sống Site';
+$lang['web_server_review_standard_configuration'] = 'Xem lại Cấu hình tiêu chuẩn';
+$lang['web_server_server_name'] = 'Tên máy chủ';
+$lang['web_server_server_name_invalid'] = 'tên máy chủ không hợp lệ.';
+$lang['web_server_site_invalid'] = 'Tên trang web là không hợp lệ.';
+$lang['web_server_test_site'] = 'Kiểm tra trang web';
+$lang['web_server_upload_access'] = 'Tải lên truy cập';
+$lang['web_server_web_application'] = 'ứng dụng Web';
+$lang['web_server_web_application_settings'] = 'Cài đặt ứng dụng Web';
+$lang['web_server_web_applications'] = 'ứng dụng Web';
+$lang['web_server_web_server'] = 'Máy chủ web';
+$lang['web_server_web_site'] = 'Trang mạng';
+$lang['web_server_web_site_hostname'] = 'Trang web Hostname';
+$lang['web_server_web_sites'] = 'Những trang web';
