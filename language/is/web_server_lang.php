@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'samheiti';
+$lang['web_server_aliases_invalid'] = 'Samheiti reitur er ógildur.';
+$lang['web_server_app_description'] = 'The Web Server app er hægt að nota til að búa til einföld sjálfstæða vefur staður eða sem hluti af víðtækari innviði til að senda á vettvang vefur-undirstaða umsókn using tækni eins og PHP, MySQL, og JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Stilla Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom stillingar';
+$lang['web_server_custom_configuration_warning'] = 'Gamall eða siðvenja stillingaskrá var greind, en samt getur stillt hlaða aðgang stillingum með vefur formið hér að neðan. Smelltu á eftirfarandi hnapp til að byrja að nota stöðluðu stillingar mynda af Web Server forritinu.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Skrárþjóns ástand er ógilt.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP ástand er ógilt.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group í ógilt.';
+$lang['web_server_hostname_aliases'] = 'hostname Samheiti';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Endurskoða staðall stillingar';
+$lang['web_server_server_name'] = 'Server Name';
+$lang['web_server_server_name_invalid'] = 'Ógilt miðlara.';
+$lang['web_server_site_invalid'] = 'Vefurinn er ógilt.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Hlaða aðgang';
+$lang['web_server_web_application'] = 'vefur Umsókn';
+$lang['web_server_web_application_settings'] = 'Web Stillingar forrita';
+$lang['web_server_web_applications'] = 'Vefur Umsókn';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hýsilheiti';
+$lang['web_server_web_sites'] = 'Web Sites';
