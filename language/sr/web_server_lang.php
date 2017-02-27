@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'алиасес';
+$lang['web_server_aliases_invalid'] = 'Алиаси поље је неважећи.';
+$lang['web_server_app_description'] = 'Апликација Веб сервер може да се користи за креирање једноставне самостални веб странице или као део ширег инфраструктуре да се распореди веб-басед апликације користећи технологије као што су ПХП, МиСКЛ и ЈаваСцрипт.';
+$lang['web_server_app_name'] = 'Веб сервер';
+$lang['web_server_configure_default_web_site'] = 'Конфигурисати Дефаулт Веб Сите';
+$lang['web_server_custom_configuration'] = 'цустом Конфигурација';
+$lang['web_server_custom_configuration_warning'] = 'Стари или обичај конфигурациони фајл је откривена, али и даље можете подесити поставке Уплоад приступ помоћу веб формулар. Кликните на следећи дугме да почнете да користите стандардну конфигурацију генерише Веб Сервер апликација.';
+$lang['web_server_directory_alias'] = 'директоријум Алиас';
+$lang['web_server_file_server_state_invalid'] = 'Филе сервер држава је неважећи.';
+$lang['web_server_file_server_upload'] = 'Филе Сервер Уплоад';
+$lang['web_server_ftp_state_invalid'] = 'ФТП држава је неважећи.';
+$lang['web_server_ftp_upload'] = 'ФТП уплоад';
+$lang['web_server_group_invalid'] = 'Група у неважећи.';
+$lang['web_server_hostname_aliases'] = 'ХостНаме игрока';
+$lang['web_server_live_site'] = 'ливе сајта';
+$lang['web_server_review_standard_configuration'] = 'Размотрити стандардна конфигурација';
+$lang['web_server_server_name'] = 'сервер Име';
+$lang['web_server_server_name_invalid'] = 'Неважећи назив сервера.';
+$lang['web_server_site_invalid'] = 'Име веб сите је неважећи.';
+$lang['web_server_test_site'] = 'тест сајт';
+$lang['web_server_upload_access'] = 'Уплоад Аццесс';
+$lang['web_server_web_application'] = 'веб апликација';
+$lang['web_server_web_application_settings'] = 'Веб апликација подешавања';
+$lang['web_server_web_applications'] = 'Веб апликације';
+$lang['web_server_web_server'] = 'Веб сервер';
+$lang['web_server_web_site'] = 'Веб сајт';
+$lang['web_server_web_site_hostname'] = 'Веб сајт хоста';
+$lang['web_server_web_sites'] = 'Веб Ситес';
