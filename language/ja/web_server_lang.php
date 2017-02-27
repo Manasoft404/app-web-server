@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'エイリアス';
+$lang['web_server_aliases_invalid'] = 'エイリアスフィールドが無効です。';
+$lang['web_server_app_description'] = 'Webサーバーアプリケーションは、単純なスタンドアロンのWebサイトを作成するために使用されるか、またはPHP、MySQLの、およびJavaScript等の技術を使用してWebベースのアプリケーションをデプロイするためのより広範なインフラストラクチャの一部としてすることができます。';
+$lang['web_server_app_name'] = 'ウェブサーバー';
+$lang['web_server_configure_default_web_site'] = '既定のWebサイトを構成します';
+$lang['web_server_custom_configuration'] = 'カスタム設定';
+$lang['web_server_custom_configuration_warning'] = '古いまたはカスタム設定ファイルが検出されましたが、あなたはまだ、以下のWebフォームを使用して、アップロードのアクセス設定を構成することができます。 Webサーバアプリケーションによって生成された標準構成を使用して起動するには、次のボタンをクリックします。';
+$lang['web_server_directory_alias'] = 'ディレクトリエイリアス';
+$lang['web_server_file_server_state_invalid'] = 'ファイルサーバの状態が無効です。';
+$lang['web_server_file_server_upload'] = 'ファイルサーバーのアップロード';
+$lang['web_server_ftp_state_invalid'] = 'FTPの状態が無効です。';
+$lang['web_server_ftp_upload'] = 'FTPアップロード';
+$lang['web_server_group_invalid'] = '無効でグループ。';
+$lang['web_server_hostname_aliases'] = 'ホスト名のエイリアス';
+$lang['web_server_live_site'] = 'ライブサイト';
+$lang['web_server_review_standard_configuration'] = '標準設定を確認します';
+$lang['web_server_server_name'] = 'サーバーの名前';
+$lang['web_server_server_name_invalid'] = '無効なサーバー名。';
+$lang['web_server_site_invalid'] = 'Webサイト名は無効です。';
+$lang['web_server_test_site'] = '試験会場';
+$lang['web_server_upload_access'] = 'アクセスをアップロード';
+$lang['web_server_web_application'] = 'ウェブアプリケーション';
+$lang['web_server_web_application_settings'] = 'Webアプリケーションの設定';
+$lang['web_server_web_applications'] = 'Webアプリケーション';
+$lang['web_server_web_server'] = 'ウェブサーバー';
+$lang['web_server_web_site'] = 'サイト';
+$lang['web_server_web_site_hostname'] = 'Webサイトのホスト名';
+$lang['web_server_web_sites'] = 'ウェブサイト';
