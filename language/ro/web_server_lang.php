@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliasurile';
+$lang['web_server_aliases_invalid'] = 'câmp aliasurile este nevalid.';
+$lang['web_server_app_description'] = 'Aplicația Web Server poate fi folosit pentru a crea site-uri web simplu de sine stătătoare sau ca parte a unei infrastructuri mai largi pentru a implementa aplicatii bazate pe web folosind tehnologii cum ar fi PHP, MySQL, JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Configurați site-ul Web implicit';
+$lang['web_server_custom_configuration'] = 'Configurare personalizată';
+$lang['web_server_custom_configuration_warning'] = 'Un fișier de configurare vechi sau personalizat a fost detectată, dar puteți totuși să configurați setările de acces de încărcare utilizând formularul web de mai jos. Click pe butonul de mai jos pentru a începe folosind configurația standard, generată de aplicația web server.';
+$lang['web_server_directory_alias'] = 'director Alias';
+$lang['web_server_file_server_state_invalid'] = 'starea server de fișiere este nevalid.';
+$lang['web_server_file_server_upload'] = 'File Server Încărcare';
+$lang['web_server_ftp_state_invalid'] = 'stat FTP este nevalid.';
+$lang['web_server_ftp_upload'] = 'FTP Încărcare';
+$lang['web_server_group_invalid'] = 'Grup în nevalid.';
+$lang['web_server_hostname_aliases'] = 'Pseudonime HOST-ului';
+$lang['web_server_live_site'] = 'site live';
+$lang['web_server_review_standard_configuration'] = 'Examinați Standard Configuration';
+$lang['web_server_server_name'] = 'Numele serverului';
+$lang['web_server_server_name_invalid'] = 'Numele serverului nevalid.';
+$lang['web_server_site_invalid'] = 'Numele site-ul web este nevalid.';
+$lang['web_server_test_site'] = 'site-ul de testare';
+$lang['web_server_upload_access'] = 'încarci de acces';
+$lang['web_server_web_application'] = 'Aplicatie web';
+$lang['web_server_web_application_settings'] = 'Setări Web Application';
+$lang['web_server_web_applications'] = 'Aplicatii web';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'site-ul web';
+$lang['web_server_web_site_hostname'] = 'Site-ul web a HOST';
+$lang['web_server_web_sites'] = 'Site-uri web';
