@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ຊື່ແທນ';
+$lang['web_server_aliases_invalid'] = 'ພາກສະຫນາມຊື່ແທນແມ່ນບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_app_description'] = 'ການ app Web Server ສາມາດຖືກນໍາໃຊ້ເພື່ອສ້າງມາດຕະການສະຖານທີ່ເວັບໄຊຕ໌ງ່າຍດາຍຫຼືເປັນສ່ວນຫນຶ່ງຂອງໂຄງສ້າງພື້ນຖານທີ່ກວ້າງຂວາງກັບປະຕິບັດຄໍາຮ້ອງສະຫມັກເວັບໄຊຕ໌ການນໍາໃຊ້ເຕັກໂນໂລຊີເຊັ່ນ: PHP, MySQL, ແລະ JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'ກໍາຫນົດຄ່າມາດຕະຖານເວັບໄຊ';
+$lang['web_server_custom_configuration'] = 'ການຕັ້ງຄ່າການລູກຄ້າ';
+$lang['web_server_custom_configuration_warning'] = 'ໄຟລ໌ການຕັ້ງຄ່າອາຍຸຫຼື custom ໄດ້ພົບ, ແຕ່ວ່າທ່ານຍັງສາມາດ configure ປັບຄ່າການເຂົ້າເຖິງການອັບໂຫຼດການນໍາໃຊ້ຮູບແບບເວັບໄຊຕ໌ຂ້າງລຸ່ມນີ້. ໃຫ້ຄລິກໃສ່ປຸ່ມຕໍ່ໄປນີ້ເພື່ອເລີ່ມຕົ້ນການນໍາໃຊ້ການຕັ້ງຄ່າມາດຕະຖານຜະລິດໂດຍ app Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'ລັດຂອງເຄື່ອງແມ່ຂ່າຍໄຟທີ່ບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'ລັດ FTP ບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group ໃນທີ່ບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_hostname_aliases'] = 'hostname ນາມແຝງ';
+$lang['web_server_live_site'] = 'ເວັບໄຊດໍາລົງຊີວິດ';
+$lang['web_server_review_standard_configuration'] = 'ການທົບທວນຄືນການຕັ້ງຄ່າມາດຕະຖານ';
+$lang['web_server_server_name'] = 'ຊື່ຂອງເຄື່ອງແມ່ຂ່າຍ';
+$lang['web_server_server_name_invalid'] = 'ຊື່ຂອງເຄື່ອງແມ່ຂ່າຍທີ່ບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_site_invalid'] = 'ຊື່ເວັບໄຊແມ່ນບໍ່ຖືກຕ້ອງ.';
+$lang['web_server_test_site'] = 'ການທົດສອບເວັບໄຊ';
+$lang['web_server_upload_access'] = 'ອັບໂຫລດເຂົ້າ';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'ຄໍາຮ້ອງສະຫມັກເວັບໄຊຕ໌';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Hostname Web Site';
+$lang['web_server_web_sites'] = 'ເວັບໄຊ';
