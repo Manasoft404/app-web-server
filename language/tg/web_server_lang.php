@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'сарҳарфи';
+$lang['web_server_aliases_invalid'] = 'соҳаи сарҳарфи нодуруст аст.';
+$lang['web_server_app_description'] = 'Дар барнома Web Server метавонад истифода шавад барои сохтани веб-сайтҳои standalone оддӣ ё як қисми инфрасохтори васеътар ба роҳ андохтани барномаҳои амалӣ бар асоси веб истифода аз технологияҳо ба монанди PHP, MySQL, ва JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Танзимоти Default Web Site';
+$lang['web_server_custom_configuration'] = 'Насб гумрук';
+$lang['web_server_custom_configuration_warning'] = 'Як файли танзимот сола ё одати, ошкор шуд, аммо шумо ба ҳар ҳол метавонед танзимоти дастрасӣ боргузорӣ истифодаи веб форма бо поён танзим карда метавонед. Ангушт занед ба тугмаи зерин барои оғози истифодаи конфигуратсияи стандарти тавлидшуда аз ҷониби барнома Web Server.';
+$lang['web_server_directory_alias'] = 'Directory номи кӯтоҳшуда';
+$lang['web_server_file_server_state_invalid'] = 'давлатии сервер File нодуруст аст.';
+$lang['web_server_file_server_upload'] = 'Акс сервер Фиристодани';
+$lang['web_server_ftp_state_invalid'] = 'давлатии FTP нодуруст аст.';
+$lang['web_server_ftp_upload'] = 'Фиристодани FTP';
+$lang['web_server_group_invalid'] = 'Гурӯҳи Дар беэътибор.';
+$lang['web_server_hostname_aliases'] = 'мизбони сарҳарфи';
+$lang['web_server_live_site'] = 'Зиндагӣ сайт';
+$lang['web_server_review_standard_configuration'] = 'Шарҳ Танзимот Стандарт';
+$lang['web_server_server_name'] = 'Номи сервер';
+$lang['web_server_server_name_invalid'] = 'Номи сервер нодуруст аст.';
+$lang['web_server_site_invalid'] = 'Номи сайти нодуруст аст.';
+$lang['web_server_test_site'] = 'Санҷиши сайт';
+$lang['web_server_upload_access'] = 'боргузорӣ Access';
+$lang['web_server_web_application'] = 'Ариза Web';
+$lang['web_server_web_application_settings'] = 'Танзимот веб Ариза';
+$lang['web_server_web_applications'] = 'Барномаҳо Web';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Веб-сайт';
+$lang['web_server_web_site_hostname'] = 'Мизбони веб-сайт';
+$lang['web_server_web_sites'] = 'Web сомонаҳои';
