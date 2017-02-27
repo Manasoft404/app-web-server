@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'laƙabi';
+$lang['web_server_aliases_invalid'] = 'Laƙabi filin ba daidai ba ne.';
+$lang['web_server_app_description'] = 'The Web Server app za a iya amfani da su haifar da sauki standalone shafukan yanar gizo ko matsayin wani ɓangare na wani mafi fadi kayayyakin da ya tura yanar gizo na tushen aikace-aikace ta yin amfani da fasahohi kamar PHP, MySQL, kuma JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Saita Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Kanfigareshan';
+$lang['web_server_custom_configuration_warning'] = 'An old ko al&#39;ada sanyi fayil aka gano, amma har yanzu zaka iya saita da upload hanya saituna ta amfani da fam na yanar gizo da ke ƙasa. Click a kan wadannan button don fara yin amfani da daidaitattun sanyi generated da Web Server app.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'File uwar garken jihar ba daidai ba ne.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP jihar ba daidai ba ne.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group a daidai ba.';
+$lang['web_server_hostname_aliases'] = 'sunan mai masauki laƙabi';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Bitar Standard Kanfigareshan';
+$lang['web_server_server_name'] = 'Server Name';
+$lang['web_server_server_name_invalid'] = 'Mara inganci uwar garken name.';
+$lang['web_server_site_invalid'] = 'Web site sunan ba daidai ba ne.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'upload Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Saituna';
+$lang['web_server_web_applications'] = 'Web aikace-aikacen kwamfuta';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Sunan mai masauki';
+$lang['web_server_web_sites'] = 'Web Sites';
