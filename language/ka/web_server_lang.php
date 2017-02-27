@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliases';
+$lang['web_server_aliases_invalid'] = 'Aliases ველი არასწორია.';
+$lang['web_server_app_description'] = 'ვებ სერვერი app შეიძლება გამოყენებულ იქნას შევქმნათ მარტივი standalone საიტები ან როგორც ნაწილი უფრო ფართო ინფრასტრუქტურის განათავსოს ვებ პროგრამების გამოყენებით ტექნოლოგიები, როგორიცაა PHP, MySQL, და JavaScript.';
+$lang['web_server_app_name'] = 'ვებ სერვერი';
+$lang['web_server_configure_default_web_site'] = 'კონფიგურაცია Default საიტის';
+$lang['web_server_custom_configuration'] = 'საბაჟო კონფიგურაციის';
+$lang['web_server_custom_configuration_warning'] = 'ძველ ან საბაჟო კონფიგურაციის ფაილი იყო აღმოჩენილი, მაგრამ თქვენ მაინც კონფიგურაციის აქაჩე პარამეტრების გამოყენებით ვებ ფორმა. დააჭირეთ შემდეგ ღილაკს, რათა დაიწყოს გამოყენებით სტანდარტული კონფიგურაციის მიერ გამომუშავებული ვებ სერვერი app.';
+$lang['web_server_directory_alias'] = 'დირექტორია Alias';
+$lang['web_server_file_server_state_invalid'] = 'ფაილი სერვერზე სახელმწიფო არასწორია.';
+$lang['web_server_file_server_upload'] = 'ფაილის სერვერზე ატვირთვა';
+$lang['web_server_ftp_state_invalid'] = 'FTP სახელმწიფო არასწორია.';
+$lang['web_server_ftp_upload'] = 'FTP ატვირთვა';
+$lang['web_server_group_invalid'] = 'ჯგუფი არასწორია.';
+$lang['web_server_hostname_aliases'] = 'ჰოსტის Aliases';
+$lang['web_server_live_site'] = 'Live საიტის';
+$lang['web_server_review_standard_configuration'] = 'მიმოხილვა სტანდარტული კონფიგურაცია';
+$lang['web_server_server_name'] = 'სერვერის სახელი';
+$lang['web_server_server_name_invalid'] = 'არასწორი სერვერის სახელი.';
+$lang['web_server_site_invalid'] = 'საიტზე სახელი არასწორია.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'აქაჩე';
+$lang['web_server_web_application'] = 'ვებ პროგრამები';
+$lang['web_server_web_application_settings'] = 'Web Application პარამეტრები';
+$lang['web_server_web_applications'] = 'ვებ პროგრამები';
+$lang['web_server_web_server'] = 'ვებ სერვერი';
+$lang['web_server_web_site'] = 'ვებ-გვერდი';
+$lang['web_server_web_site_hostname'] = 'ვებ ჰოსტის სახელი';
+$lang['web_server_web_sites'] = 'საიტები';
