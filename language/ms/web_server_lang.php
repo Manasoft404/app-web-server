@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'alias';
+$lang['web_server_aliases_invalid'] = 'bidang alias tidak sah.';
+$lang['web_server_app_description'] = 'Aplikasi Web Server boleh digunakan untuk membuat laman web yang berdiri sendiri mudah atau sebagai sebahagian daripada infrastruktur yang lebih luas untuk menggunakan aplikasi berasaskan web menggunakan teknologi seperti PHP, MySQL, dan JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfigurasi Laman Web Lalai';
+$lang['web_server_custom_configuration'] = 'Konfigurasi Custom';
+$lang['web_server_custom_configuration_warning'] = 'Fail konfigurasi lama atau adat dikesan, tetapi anda masih boleh mengkonfigurasi tetapan akses upload menggunakan borang web di bawah. Klik pada butang berikut untuk mula menggunakan konfigurasi standard yang dihasilkan oleh aplikasi Web Server.';
+$lang['web_server_directory_alias'] = 'Direktori Alias';
+$lang['web_server_file_server_state_invalid'] = 'negeri pelayan fail tidak sah.';
+$lang['web_server_file_server_upload'] = 'Fail Server naik';
+$lang['web_server_ftp_state_invalid'] = 'negeri FTP adalah tidak sah.';
+$lang['web_server_ftp_upload'] = 'FTP naik';
+$lang['web_server_group_invalid'] = 'Group di tidak sah.';
+$lang['web_server_hostname_aliases'] = 'Nama Hos Alias';
+$lang['web_server_live_site'] = 'laman live';
+$lang['web_server_review_standard_configuration'] = 'Mengkaji Konfigurasi Standard';
+$lang['web_server_server_name'] = 'Nama pelayan';
+$lang['web_server_server_name_invalid'] = 'nama pelayan tidak sah.';
+$lang['web_server_site_invalid'] = 'Nama laman web adalah tidak sah.';
+$lang['web_server_test_site'] = 'laman Test';
+$lang['web_server_upload_access'] = 'Memuat Access';
+$lang['web_server_web_application'] = 'Aplikasi web';
+$lang['web_server_web_application_settings'] = 'Tetapan Aplikasi Web';
+$lang['web_server_web_applications'] = 'Aplikasi web';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'laman web';
+$lang['web_server_web_site_hostname'] = 'Nama Hos Web Site';
+$lang['web_server_web_sites'] = 'laman web';
