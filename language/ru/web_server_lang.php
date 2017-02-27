@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Псевдонимы';
+$lang['web_server_aliases_invalid'] = 'Псевдонимы поля является недействительным.';
+$lang['web_server_app_description'] = 'Приложение Web-сервер может быть использован для создания простых автономных веб-сайтов или как часть более широкой инфраструктуры для развертывания веб-приложений с использованием технологий, таких как PHP, MySQL и JavaScript.';
+$lang['web_server_app_name'] = 'Веб сервер';
+$lang['web_server_configure_default_web_site'] = 'Настройка Default Web Site';
+$lang['web_server_custom_configuration'] = 'Пользовательские настройки';
+$lang['web_server_custom_configuration_warning'] = 'Старый или пользовательский конфигурационный файл был обнаружен, но вы все еще можете настроить параметры доступа для загрузки с помощью веб-форму ниже. Нажмите на следующую кнопку, чтобы начать использовать стандартную конфигурацию, генерируемый приложением веб-сервера.';
+$lang['web_server_directory_alias'] = 'Справочник Алиас';
+$lang['web_server_file_server_state_invalid'] = 'состояние файлового сервера недействителен.';
+$lang['web_server_file_server_upload'] = 'Файловый сервер Загрузить';
+$lang['web_server_ftp_state_invalid'] = 'FTP состояние является недействительным.';
+$lang['web_server_ftp_upload'] = 'FTP Загрузить';
+$lang['web_server_group_invalid'] = 'Группа в недействительны.';
+$lang['web_server_hostname_aliases'] = 'Псевдонимы Hostname';
+$lang['web_server_live_site'] = 'Живой сайт';
+$lang['web_server_review_standard_configuration'] = 'Обзор стандартной конфигурации';
+$lang['web_server_server_name'] = 'Имя сервера';
+$lang['web_server_server_name_invalid'] = 'Неверное имя сервера.';
+$lang['web_server_site_invalid'] = 'Имя веб-сайта является недействительным.';
+$lang['web_server_test_site'] = 'место испытаний';
+$lang['web_server_upload_access'] = 'Загрузить Access';
+$lang['web_server_web_application'] = 'Веб приложение';
+$lang['web_server_web_application_settings'] = 'Настройки веб-приложений';
+$lang['web_server_web_applications'] = 'веб-приложения';
+$lang['web_server_web_server'] = 'Веб сервер';
+$lang['web_server_web_site'] = 'Веб-сайт';
+$lang['web_server_web_site_hostname'] = 'Hostname Веб-сайт';
+$lang['web_server_web_sites'] = 'веб-сайты';
