@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'اسماء مستعارة';
+$lang['web_server_aliases_invalid'] = 'المجال الأسماء المستعارة غير صالح.';
+$lang['web_server_app_description'] = 'التطبيق خادم ويب يمكن استخدامها لخلق مستقل مواقع ويب بسيطة أو كجزء من بنية تحتية واسعة لنشر التطبيقات على شبكة الإنترنت باستخدام تقنيات مثل PHP و MySQL، وجافا سكريبت.';
+$lang['web_server_app_name'] = 'قاعدة بيانات للانترنت';
+$lang['web_server_configure_default_web_site'] = 'تكوين موقع ويب الافتراضي';
+$lang['web_server_custom_configuration'] = 'تكوين مخصص';
+$lang['web_server_custom_configuration_warning'] = 'تم الكشف عن ملف التكوين القديم أو العرف، ولكن لا يزال بإمكانك تكوين إعدادات التحميل الوصول باستخدام النموذج الإلكتروني أدناه. انقر على زر التالي لبدء باستخدام التكوين القياسية التي تم إنشاؤها بواسطة برنامج خادم ويب.';
+$lang['web_server_directory_alias'] = 'الاسم المستعار الدليل';
+$lang['web_server_file_server_state_invalid'] = 'الدولة ملقم ملفات غير صالحة.';
+$lang['web_server_file_server_upload'] = 'ملف خادم تحميل';
+$lang['web_server_ftp_state_invalid'] = 'الدولة بروتوكول نقل الملفات غير صالحة.';
+$lang['web_server_ftp_upload'] = 'بروتوكول نقل الملفات تحميل';
+$lang['web_server_group_invalid'] = 'مجموعة في غير صالح.';
+$lang['web_server_hostname_aliases'] = 'اسم المضيف الأسماء المستعارة';
+$lang['web_server_live_site'] = 'موقع لايف';
+$lang['web_server_review_standard_configuration'] = 'مراجعة مستوى التكوين';
+$lang['web_server_server_name'] = 'اسم الخادم';
+$lang['web_server_server_name_invalid'] = 'اسم الملقم غير صالح.';
+$lang['web_server_site_invalid'] = 'اسم الموقع غير صالح.';
+$lang['web_server_test_site'] = 'موقع الاختبار';
+$lang['web_server_upload_access'] = 'تحميل الوصول';
+$lang['web_server_web_application'] = 'تطبيق ويب';
+$lang['web_server_web_application_settings'] = 'إعدادات التطبيق على شبكة الإنترنت';
+$lang['web_server_web_applications'] = 'تطبيقات الويب';
+$lang['web_server_web_server'] = 'قاعدة بيانات للانترنت';
+$lang['web_server_web_site'] = 'موقع الكتروني';
+$lang['web_server_web_site_hostname'] = 'اسم المضيف الموقع على شبكة الإنترنت';
+$lang['web_server_web_sites'] = 'مواقع على شبكة الإنترنت';
