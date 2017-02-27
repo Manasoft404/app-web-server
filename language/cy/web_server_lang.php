@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'enwau eraill';
+$lang['web_server_aliases_invalid'] = 'maes yn enwau eraill yn annilys.';
+$lang['web_server_app_description'] = 'Gall y app Gwe Gweinyddwr yn cael ei ddefnyddio i greu safleoedd gwe standalone syml neu fel rhan o seilwaith ehangach i ddefnyddio cymwysiadau ar y we gan ddefnyddio technolegau fel PHP, MySQL, a JavaScript.';
+$lang['web_server_app_name'] = 'Gweinydd gwe';
+$lang['web_server_configure_default_web_site'] = 'Ffurfweddu Default Wefan';
+$lang['web_server_custom_configuration'] = 'Custom Ffurfweddiad';
+$lang['web_server_custom_configuration_warning'] = 'Mae ffeil hen neu arferiad cyfluniad ei ganfod, ond gallwch barhau i ffurfweddu gosodiadau mynediad lanlwytho gan ddefnyddio&#39;r ffurflen ar y we isod. Cliciwch ar y botwm isod i ddechrau defnyddio&#39;r cyfluniad safonol a gynhyrchir gan y app Gweinyddwr Gwe.';
+$lang['web_server_directory_alias'] = 'Cyfeiriadur Alias';
+$lang['web_server_file_server_state_invalid'] = 'gweinydd ffeil y wladwriaeth yn annilys.';
+$lang['web_server_file_server_upload'] = 'Ffeil Gweinydd Llwytho';
+$lang['web_server_ftp_state_invalid'] = 'FTP wladwriaeth yn annilys.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Grŵp yn annilys.';
+$lang['web_server_hostname_aliases'] = 'Arallenwau Enw gwesteiwr';
+$lang['web_server_live_site'] = 'Safle Live';
+$lang['web_server_review_standard_configuration'] = 'Adolygu Safon Ffurfweddiad';
+$lang['web_server_server_name'] = 'gweinydd Enw';
+$lang['web_server_server_name_invalid'] = 'enw gweinydd annilys.';
+$lang['web_server_site_invalid'] = 'enw Wefan yn annilys.';
+$lang['web_server_test_site'] = 'prawf Safle';
+$lang['web_server_upload_access'] = 'uwchlwytho Mynediad';
+$lang['web_server_web_application'] = 'Cais we';
+$lang['web_server_web_application_settings'] = 'Gosodiadau Cais We';
+$lang['web_server_web_applications'] = 'Ceisiadau ar y we';
+$lang['web_server_web_server'] = 'Gweinydd gwe';
+$lang['web_server_web_site'] = 'Safle gwe';
+$lang['web_server_web_site_hostname'] = 'Enw Gwesteiwr Wefan';
+$lang['web_server_web_sites'] = 'gwefannau';
