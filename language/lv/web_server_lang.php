@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'pseidonīmi';
+$lang['web_server_aliases_invalid'] = 'Pseidonīmi lauks ir nederīgs.';
+$lang['web_server_app_description'] = 'Web Server lietotne var izmantot, lai izveidotu vienkāršu standalone tīmekļa vietnes vai kā daļu no plašākas infrastruktūru izvietot tīmekļa lietojumprogrammas, izmantojot tehnoloģijas, piemēram, PHP, MySQL, un JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfigurēt Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom konfigurācija';
+$lang['web_server_custom_configuration_warning'] = 'Vecs vai custom konfigurācijas fails tika atrasts, taču jūs joprojām varat konfigurēt augšupielādēt piekļuves iestatījumus, izmantojot tīmekļa veidlapu zemāk. Noklikšķiniet uz šīs pogas, lai sāktu izmantot standarta konfigurāciju, ko Web Server app radīts.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Failu servera stāvoklis ir nederīgs.';
+$lang['web_server_file_server_upload'] = 'Failu servera augšupielādi';
+$lang['web_server_ftp_state_invalid'] = 'FTP stāvoklis ir nederīgs.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Grupa nederīgs.';
+$lang['web_server_hostname_aliases'] = 'resursdatora Pseidonīmi';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Pārskatīt standarta konfigurācija';
+$lang['web_server_server_name'] = 'servera nosaukums';
+$lang['web_server_server_name_invalid'] = 'Nederīgs servera nosaukumu.';
+$lang['web_server_site_invalid'] = 'Tīmekļa vietne nosaukums nav derīgs.';
+$lang['web_server_test_site'] = 'Testeri';
+$lang['web_server_upload_access'] = 'augšupielāde Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'Web Pieteikumi';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
