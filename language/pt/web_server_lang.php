@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Aliases';
+$lang['web_server_aliases_invalid'] = 'campo Aliases é inválido.';
+$lang['web_server_app_description'] = 'O aplicativo Web Server pode ser usado para criar simples web sites independentes ou como parte de uma infra-estrutura mais ampla para implantar aplicativos baseados na web utilizando tecnologias como PHP, MySQL e JavaScript.';
+$lang['web_server_app_name'] = 'Servidor web';
+$lang['web_server_configure_default_web_site'] = 'Configurar Site Padrão';
+$lang['web_server_custom_configuration'] = 'Configuração personalizada';
+$lang['web_server_custom_configuration_warning'] = 'Um arquivo de configuração de idade ou costume foi detectado, mas você ainda pode configurar as definições de acesso de upload usando o formulário web abaixo. Clique no botão a seguir para começar a usar a configuração padrão gerada pelo aplicativo Web Server.';
+$lang['web_server_directory_alias'] = 'Diretório Alias';
+$lang['web_server_file_server_state_invalid'] = 'estado do servidor de arquivo é inválido.';
+$lang['web_server_file_server_upload'] = 'File Server Carregar';
+$lang['web_server_ftp_state_invalid'] = 'Estado FTP é inválido.';
+$lang['web_server_ftp_upload'] = 'FTP Carregar';
+$lang['web_server_group_invalid'] = 'Grupo de inválido.';
+$lang['web_server_hostname_aliases'] = 'hostname Aliases';
+$lang['web_server_live_site'] = 'site ao vivo';
+$lang['web_server_review_standard_configuration'] = 'Comente Configuração padrão';
+$lang['web_server_server_name'] = 'Nome do servidor';
+$lang['web_server_server_name_invalid'] = 'Nome de servidor inválido.';
+$lang['web_server_site_invalid'] = 'nome do site é inválido.';
+$lang['web_server_test_site'] = 'Site de teste';
+$lang['web_server_upload_access'] = 'fazer upload de Acesso';
+$lang['web_server_web_application'] = 'Aplicação web';
+$lang['web_server_web_application_settings'] = 'Configurações do aplicativo Web';
+$lang['web_server_web_applications'] = 'Aplicações web';
+$lang['web_server_web_server'] = 'Servidor web';
+$lang['web_server_web_site'] = 'Local na rede Internet';
+$lang['web_server_web_site_hostname'] = 'Nome do host Web Site';
+$lang['web_server_web_sites'] = 'Sites web';
