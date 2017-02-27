@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Přezdívky';
+$lang['web_server_aliases_invalid'] = 'Přezdívky pole je neplatné.';
+$lang['web_server_app_description'] = 'Aplikace Web Server lze použít k vytvoření jednoduché samostatné webové stránky, nebo jako součást širšího infrastruktury pro nasazení webových aplikací pomocí technologií, jako je PHP, MySQL a JavaScript.';
+$lang['web_server_app_name'] = 'Webový server';
+$lang['web_server_configure_default_web_site'] = 'Konfigurace výchozí web';
+$lang['web_server_custom_configuration'] = 'Custom Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Starý nebo vlastní konfigurační soubor byl zjištěn, ale stále můžete konfigurovat nastavení přístupu nahrát pomocí webového formuláře níže. Kliknout na následující odkaz začít používat standardní konfiguraci vytvářené aplikace webového serveru.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Stavový server soubor je neplatný.';
+$lang['web_server_file_server_upload'] = 'File Server nahrávání';
+$lang['web_server_ftp_state_invalid'] = 'FTP stav je neplatný.';
+$lang['web_server_ftp_upload'] = 'FTP uploadu';
+$lang['web_server_group_invalid'] = 'Skupina v neplatný.';
+$lang['web_server_hostname_aliases'] = 'hostname aliasů';
+$lang['web_server_live_site'] = 'Živé Site';
+$lang['web_server_review_standard_configuration'] = 'Zkontrolujte standardní konfigurací';
+$lang['web_server_server_name'] = 'Name Server';
+$lang['web_server_server_name_invalid'] = 'Neplatný název serveru.';
+$lang['web_server_site_invalid'] = 'Název webu je neplatná.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Nahrávání Access';
+$lang['web_server_web_application'] = 'Webová aplikace';
+$lang['web_server_web_application_settings'] = 'Nastavení webové aplikace';
+$lang['web_server_web_applications'] = 'webové aplikace';
+$lang['web_server_web_server'] = 'Webový server';
+$lang['web_server_web_site'] = 'Webová stránka';
+$lang['web_server_web_site_hostname'] = 'Název hostitele Web Site';
+$lang['web_server_web_sites'] = 'webové stránky';
