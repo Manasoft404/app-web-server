@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Niovaova anarana';
+$lang['web_server_aliases_invalid'] = 'Niovaova an-tsaha dia tsy manan-kery.';
+$lang['web_server_app_description'] = 'Ny fampiharana Server Web azo ampiasaina mba hamoronana tsotra standalone Internet, na ao anatin&#39;ny foto-drafitrasa ny mivelatra kokoa mba miisa tranonkala mifototra amin&#39;ny fampiharana mampiasa ny teknolojia toy ny PHP, MySQL, ary JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Tefeo Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Tranainy na fanao fanahafana rakitra dia tsikaritra, nefa mbola afaka ampiendrehina ny Upload toe-javatra fidirana mampiasa ny aterineto teny eto ambany. Tsindrio ny bokotra manaraka mba hanomboka hampiasa ny fitsipika fanahafana niteraka ny Web Server App.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'File mpizara fanjakana dia tsy manan-kery.';
+$lang['web_server_file_server_upload'] = 'File Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'FTP fanjakana dia tsy manan-kery.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Vondrona amin&#39;ny tsy manan-kery.';
+$lang['web_server_hostname_aliases'] = 'Hostname Niovaova anarana';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Avereno jerena Standard Configuration';
+$lang['web_server_server_name'] = 'Server Name';
+$lang['web_server_server_name_invalid'] = 'Tsy mety mpizara anarana.';
+$lang['web_server_site_invalid'] = 'Web toerana anarany tsy manan-kery.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Zavatra Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'Web Applications';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
