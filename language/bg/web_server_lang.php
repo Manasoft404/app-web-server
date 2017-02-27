@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Псевдоними';
+$lang['web_server_aliases_invalid'] = 'поле Псевдоними е невалиден.';
+$lang['web_server_app_description'] = 'Приложението Web Server може да се използва за създаване на прости уеб сайтове, самостоятелни или като част от по-широка инфраструктура за разполагане на уеб-базирани приложения, използващи технологии като PHP, MySQL, и JavaScript.';
+$lang['web_server_app_name'] = 'Уеб сървър';
+$lang['web_server_configure_default_web_site'] = 'Конфигуриране Default Web Site';
+$lang['web_server_custom_configuration'] = 'персонализирана Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Един стар или обичай конфигурационен файл е бил открит, но все още можете да конфигурирате настройките за достъп за качване с помощта на уеб формата по-долу. Кликнете върху бутона, за да започнете да използвате стандартната конфигурация, генерирани от приложението на Web Server.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'сървър File състояние е невалиден.';
+$lang['web_server_file_server_upload'] = 'File Server Качи';
+$lang['web_server_ftp_state_invalid'] = 'FTP състояние е невалиден.';
+$lang['web_server_ftp_upload'] = 'FTP качване';
+$lang['web_server_group_invalid'] = 'Група в невалиден.';
+$lang['web_server_hostname_aliases'] = 'Hostname Псевдоними';
+$lang['web_server_live_site'] = 'на живо на сайта';
+$lang['web_server_review_standard_configuration'] = 'Прегледайте Standard Configuration';
+$lang['web_server_server_name'] = 'Име на сървъра';
+$lang['web_server_server_name_invalid'] = 'Невалидно име на сървъра.';
+$lang['web_server_site_invalid'] = 'Име на уеб сайт е невалиден.';
+$lang['web_server_test_site'] = 'Тест на сайта';
+$lang['web_server_upload_access'] = 'Качване на Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Настройки на уеб приложения';
+$lang['web_server_web_applications'] = 'Уеб приложения';
+$lang['web_server_web_server'] = 'Уеб сървър';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Име на хост уеб сайт';
+$lang['web_server_web_sites'] = 'Уеб сайтове';
