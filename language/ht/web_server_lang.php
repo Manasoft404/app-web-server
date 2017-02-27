@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'anpren';
+$lang['web_server_aliases_invalid'] = 'Anpren jaden se valab.';
+$lang['web_server_app_description'] = 'Ka app a Web sèvè dwe itilize yo kreye senp sit wèb otonòm oswa kòm yon pati nan yon enfrastrikti pi laj yo deplwaye aplikasyon ki baze sou wèb lè l sèvi avèk teknoloji tankou PHP, miskl, ak JavaScript.';
+$lang['web_server_app_name'] = 'Web sèvè';
+$lang['web_server_configure_default_web_site'] = 'Configured Sit entewnet Default';
+$lang['web_server_custom_configuration'] = 'Custom nou konte ofri sèvis';
+$lang['web_server_custom_configuration_warning'] = 'Yon dosye fin vye granmoun oswa koutim konfigirasyon te detekte, men ou ka toujou configured anviwònman yo téléchargement aksè lè l sèvi avèk fòm la sou sit anba a. Klike sou bouton ki anba la a yo kòmanse lè l sèvi avèk configuration la, te estanda ki te pwodwi pa app a entènèt sèvè.';
+$lang['web_server_directory_alias'] = 'Anyè Alyas';
+$lang['web_server_file_server_state_invalid'] = 'sèvè File Eta a se valab.';
+$lang['web_server_file_server_upload'] = 'File sèvè Voye';
+$lang['web_server_ftp_state_invalid'] = 'Ftp Eta a se valab.';
+$lang['web_server_ftp_upload'] = 'ftp Voye';
+$lang['web_server_group_invalid'] = 'Group nan valab.';
+$lang['web_server_hostname_aliases'] = 'hostname Anpren';
+$lang['web_server_live_site'] = 'Live Sit';
+$lang['web_server_review_standard_configuration'] = 'Revize Creole konte genyen';
+$lang['web_server_server_name'] = 'Non sèvè';
+$lang['web_server_server_name_invalid'] = 'Envalid Non sèvè.';
+$lang['web_server_site_invalid'] = 'Non sit wèb se valab.';
+$lang['web_server_test_site'] = 'Egzamen Sit';
+$lang['web_server_upload_access'] = 'Voye Aksè';
+$lang['web_server_web_application'] = 'aplikasyon Web';
+$lang['web_server_web_application_settings'] = 'Anviwònman Aplikasyon Web';
+$lang['web_server_web_applications'] = 'Aplikasyon Web';
+$lang['web_server_web_server'] = 'Web sèvè';
+$lang['web_server_web_site'] = 'Sit entewnet';
+$lang['web_server_web_site_hostname'] = 'Hostname Sit entewnet';
+$lang['web_server_web_sites'] = 'sou sit entènèt';
