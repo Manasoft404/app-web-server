@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'نام مستعار';
+$lang['web_server_aliases_invalid'] = 'درست مستعار نامعتبر است.';
+$lang['web_server_app_description'] = 'برنامه وب سرور را می توان مورد استفاده برای ایجاد وب سایت های مستقل ساده و یا به عنوان بخشی از زیرساخت های گسترده تر برای گسترش برنامه های کاربردی مبتنی بر وب با استفاده از فن آوری های مانند PHP، MySQL و جاوا اسکریپت.';
+$lang['web_server_app_name'] = 'وب سرور';
+$lang['web_server_configure_default_web_site'] = 'پیکربندی پیش فرض وب سایت';
+$lang['web_server_custom_configuration'] = 'پیکربندی سفارشی';
+$lang['web_server_custom_configuration_warning'] = 'یک فایل تنظیمات قدیمی و یا سفارشی، مشاهده شد، اما شما هنوز هم می توانید تنظیمات دسترسی آپلود با استفاده از فرم وب زیر را پیکربندی کنید. کلیک بر روی دکمه زیر را برای شروع با استفاده از پیکربندی استاندارد تولید شده توسط نرم افزار وب سایت و سرور.';
+$lang['web_server_directory_alias'] = 'راهنمای نام مستعار';
+$lang['web_server_file_server_state_invalid'] = 'وضعیت سرور فایل نامعتبر است.';
+$lang['web_server_file_server_upload'] = 'فایل سرور آپلود';
+$lang['web_server_ftp_state_invalid'] = 'دولت FTP نامعتبر است.';
+$lang['web_server_ftp_upload'] = 'FTP آپلود';
+$lang['web_server_group_invalid'] = 'گروه در نامعتبر است.';
+$lang['web_server_hostname_aliases'] = 'نام میزبان مستعار';
+$lang['web_server_live_site'] = 'سایت زندگی می کنند';
+$lang['web_server_review_standard_configuration'] = 'بررسی پیکربندی استاندارد';
+$lang['web_server_server_name'] = 'نام ارائهکننده';
+$lang['web_server_server_name_invalid'] = 'نام سرور نامعتبر است.';
+$lang['web_server_site_invalid'] = 'نام وب سایت نامعتبر است.';
+$lang['web_server_test_site'] = 'تست سایت';
+$lang['web_server_upload_access'] = 'آپلود دسترسی';
+$lang['web_server_web_application'] = 'برنامه تحت وب';
+$lang['web_server_web_application_settings'] = 'تنظیمات برنامه کاربردی وب';
+$lang['web_server_web_applications'] = 'نرم افزار وب سایت';
+$lang['web_server_web_server'] = 'وب سرور';
+$lang['web_server_web_site'] = 'سایت اینترنتی';
+$lang['web_server_web_site_hostname'] = 'نام سرور وب سایت';
+$lang['web_server_web_sites'] = 'وب سایت';
