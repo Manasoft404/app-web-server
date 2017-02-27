@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Más nevek';
+$lang['web_server_aliases_invalid'] = 'Más nevek mező érvénytelen.';
+$lang['web_server_app_description'] = 'A webszerver alkalmazás lehet használni, hogy egyszerű önálló weboldalak vagy egy szélesebb körű infrastruktúra telepíteni a web-alapú alkalmazások technológiák, mint a PHP, a MySQL és a JavaScript.';
+$lang['web_server_app_name'] = 'Web szerver';
+$lang['web_server_configure_default_web_site'] = 'Állítsa Default Web Site';
+$lang['web_server_custom_configuration'] = 'Speciális konfiguráció';
+$lang['web_server_custom_configuration_warning'] = 'Egy régi vagy egyéni konfigurációs fájlban észlelt, de akkor is beállíthatja a feltöltési hozzáférési beállításokat az alábbi internetes űrlapon. Kattintson az alábbi gombra, hogy elindítsa a szabványos konfigurációs által generált webszerver alkalmazás.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Fájlszerver állapota nem megfelelő.';
+$lang['web_server_file_server_upload'] = 'Fájl szerver feltöltés';
+$lang['web_server_ftp_state_invalid'] = 'FTP állapota nem megfelelő.';
+$lang['web_server_ftp_upload'] = 'FTP feltöltés';
+$lang['web_server_group_invalid'] = 'Csoport érvénytelen.';
+$lang['web_server_hostname_aliases'] = 'hostname Aliasok';
+$lang['web_server_live_site'] = 'élő Oldal';
+$lang['web_server_review_standard_configuration'] = 'Felülvizsgálja Alapkonfiguráció';
+$lang['web_server_server_name'] = 'Szerver név';
+$lang['web_server_server_name_invalid'] = 'Érvénytelen kiszolgáló nevét.';
+$lang['web_server_site_invalid'] = 'Webhely neve érvénytelen.';
+$lang['web_server_test_site'] = 'Vizsgálóhely';
+$lang['web_server_upload_access'] = 'feltöltése Access';
+$lang['web_server_web_application'] = 'Webalkalmazás';
+$lang['web_server_web_application_settings'] = 'Web Application Settings';
+$lang['web_server_web_applications'] = 'webes alkalmazások';
+$lang['web_server_web_server'] = 'Web szerver';
+$lang['web_server_web_site'] = 'Weboldal';
+$lang['web_server_web_site_hostname'] = 'Honlap Gazdagépnév';
+$lang['web_server_web_sites'] = 'weboldalak';
