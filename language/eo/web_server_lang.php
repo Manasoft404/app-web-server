@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'alias';
+$lang['web_server_aliases_invalid'] = 'Alias ​​kampo estas nevalida.';
+$lang['web_server_app_description'] = 'La TTT-servilo app povas esti uzata por krei simplajn standalone ttt ejoj aŭ kiel parto de pli larĝa infrastrukturo por deploji ttt-bazita aplikoj uzante teknologiojn kiel PHP, MySQL kaj JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Konfiguri Defaŭlta Retejo';
+$lang['web_server_custom_configuration'] = 'kutimo Agordo';
+$lang['web_server_custom_configuration_warning'] = 'Malnova aŭ kutimo agordo dosiero estis detektita, sed vi povas ankoraŭ agordi la alŝuta aliro agordojn uzante la ttt formo sub. Alklaku la sekvan butonon ekuzi la norma konfiguracio generita per la TTT-servilo app.';
+$lang['web_server_directory_alias'] = 'Katalogo Alias';
+$lang['web_server_file_server_state_invalid'] = 'Dosiero servilo stato estas nevalida.';
+$lang['web_server_file_server_upload'] = 'Dosiera Servilo Alŝuti';
+$lang['web_server_ftp_state_invalid'] = 'FTP stato estas nevalida.';
+$lang['web_server_ftp_upload'] = 'FTP Alŝuti';
+$lang['web_server_group_invalid'] = 'Grupo en nevalida.';
+$lang['web_server_hostname_aliases'] = 'komputilnomo alias';
+$lang['web_server_live_site'] = 'realtempa retejo';
+$lang['web_server_review_standard_configuration'] = 'Revizii Norma Agordo';
+$lang['web_server_server_name'] = 'servilo Nomo';
+$lang['web_server_server_name_invalid'] = 'Nevalida servila nomo.';
+$lang['web_server_site_invalid'] = 'Retejo nomo estas malvalida.';
+$lang['web_server_test_site'] = 'testo retejo';
+$lang['web_server_upload_access'] = 'alŝuti Aliro';
+$lang['web_server_web_application'] = 'retejo Apliko';
+$lang['web_server_web_application_settings'] = 'Retejo Apliko Agordo';
+$lang['web_server_web_applications'] = 'TTT Aplikoj';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'retejo';
+$lang['web_server_web_site_hostname'] = 'Retejo Hostname';
+$lang['web_server_web_sites'] = 'retejoj';
