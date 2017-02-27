@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliases';
+$lang['web_server_aliases_invalid'] = 'Aliases aaye jẹ invalid.';
+$lang['web_server_app_description'] = 'Awọn oju-iwe ayelujara Server app ni a le lo lati ṣẹda o rọrun standalone ayelujara tabi bi ara ti a gbooro amayederun lati ran ayelujara-orisun ohun elo lilo imo bi PHP, MySQL, ati JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Tunto aiyipada oju-iwe ayelujara Aye';
+$lang['web_server_custom_configuration'] = 'aṣa iṣeto ni';
+$lang['web_server_custom_configuration_warning'] = 'Ohun ti atijọ tabi aṣa iṣeto ni faili ti a ri, ṣugbọn o si tun le tunto awọn po wiwọle awọn eto nipa lilo foomu ayelujara ni isalẹ. Tẹ lori awọn wọnyi bọtini lati bẹrẹ lilo awọn boṣewa iṣeto ni ipilẹṣẹ nipasẹ awọn oju-iwe ayelujara Server app.';
+$lang['web_server_directory_alias'] = 'Directory inagijẹ';
+$lang['web_server_file_server_state_invalid'] = 'Faili server ipinle jẹ invalid.';
+$lang['web_server_file_server_upload'] = 'Faili Server Po';
+$lang['web_server_ftp_state_invalid'] = 'FTP ipinle jẹ invalid.';
+$lang['web_server_ftp_upload'] = 'FTP Po';
+$lang['web_server_group_invalid'] = 'Group ni invalid.';
+$lang['web_server_hostname_aliases'] = 'hostname aliases';
+$lang['web_server_live_site'] = 'Live Aaye';
+$lang['web_server_review_standard_configuration'] = 'Atunwo Standard iṣeto ni';
+$lang['web_server_server_name'] = 'Server Name';
+$lang['web_server_server_name_invalid'] = 'Invalid orukọ olupin.';
+$lang['web_server_site_invalid'] = 'Aaye ayelujara orukọ jẹ invalid.';
+$lang['web_server_test_site'] = 'igbeyewo Aye';
+$lang['web_server_upload_access'] = 'Po si Access';
+$lang['web_server_web_application'] = 'Web elo';
+$lang['web_server_web_application_settings'] = 'Web elo Eto';
+$lang['web_server_web_applications'] = 'ayelujara Awọn ohun elo';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Ìsọfúnni';
+$lang['web_server_web_site_hostname'] = 'Ayelujara Aye Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
