@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'aliases';
+$lang['web_server_aliases_invalid'] = 'Aliases agro est invalidum.';
+$lang['web_server_app_description'] = 'Textus servo app facere potest, sive simplici parte latiore infrastructure standalone web web-substructio applicationem ad usus vitae explicandam quasi PHP, MySQL et JavaScript.';
+$lang['web_server_app_name'] = 'Textus Servo';
+$lang['web_server_configure_default_web_site'] = 'Configure Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom Configuration';
+$lang['web_server_custom_configuration_warning'] = 'Vetus consuetudo vel figura file detecta sed potest uti textus Formam configurare eget accessum occasus. Click vexillum satus usura felis sequenti figura textus servo generatur App.';
+$lang['web_server_directory_alias'] = 'Alias ​​Directory';
+$lang['web_server_file_server_state_invalid'] = 'File statu servo sit irrita.';
+$lang['web_server_file_server_upload'] = 'File Upload Server';
+$lang['web_server_ftp_state_invalid'] = 'Statu sit amet nulla.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group in ipso.';
+$lang['web_server_hostname_aliases'] = 'hostname Aliases';
+$lang['web_server_live_site'] = 'live Site';
+$lang['web_server_review_standard_configuration'] = 'Review vexillum configuration';
+$lang['web_server_server_name'] = 'Servo Name';
+$lang['web_server_server_name_invalid'] = 'Servo Locus nomine.';
+$lang['web_server_site_invalid'] = 'Web site nomen est invalidum.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Obvius Upload';
+$lang['web_server_web_application'] = 'Web application';
+$lang['web_server_web_application_settings'] = 'Web settings Application';
+$lang['web_server_web_applications'] = 'Textus Applications';
+$lang['web_server_web_server'] = 'Textus Servo';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
