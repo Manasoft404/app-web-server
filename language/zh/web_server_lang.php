@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = '别名';
+$lang['web_server_aliases_invalid'] = '别名字段无效。';
+$lang['web_server_app_description'] = 'Web服务器应用程序可以被用来创建简单的独立网站或作为更广泛的基础设施来部署使用诸如PHP和MySQL和JavaScript技术，基于Web的应用程序的一部分。';
+$lang['web_server_app_name'] = '网络服务器';
+$lang['web_server_configure_default_web_site'] = '配置默认Web站点';
+$lang['web_server_custom_configuration'] = '自定义配置';
+$lang['web_server_custom_configuration_warning'] = '检测到旧的或自定义配置文件，但您仍然可以配置使用下面的Web表单上传访问设置。 点击以下按钮，开始使用由Web服务器应用程序生成的标准配置。';
+$lang['web_server_directory_alias'] = '目录别名';
+$lang['web_server_file_server_state_invalid'] = '文件服务器状态无效。';
+$lang['web_server_file_server_upload'] = '文件服务器上传';
+$lang['web_server_ftp_state_invalid'] = 'FTP状态无效。';
+$lang['web_server_ftp_upload'] = 'FTP上传';
+$lang['web_server_group_invalid'] = '集团无效。';
+$lang['web_server_hostname_aliases'] = '主机别名';
+$lang['web_server_live_site'] = '现场直播';
+$lang['web_server_review_standard_configuration'] = '审查标准配置';
+$lang['web_server_server_name'] = '服务器名称';
+$lang['web_server_server_name_invalid'] = '无效的服务器名称。';
+$lang['web_server_site_invalid'] = '网站名称是无效的。';
+$lang['web_server_test_site'] = '试验场';
+$lang['web_server_upload_access'] = '上传访问';
+$lang['web_server_web_application'] = 'Web应用程序';
+$lang['web_server_web_application_settings'] = 'Web应用程序设置';
+$lang['web_server_web_applications'] = 'Web应用程序';
+$lang['web_server_web_server'] = '网络服务器';
+$lang['web_server_web_site'] = '网站';
+$lang['web_server_web_site_hostname'] = '网站主机名';
+$lang['web_server_web_sites'] = '网站';
