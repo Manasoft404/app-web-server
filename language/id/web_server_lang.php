@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'alias';
+$lang['web_server_aliases_invalid'] = 'bidang alias tidak valid.';
+$lang['web_server_app_description'] = 'Aplikasi Web Server dapat digunakan untuk membuat situs web mandiri sederhana atau sebagai bagian dari infrastruktur yang lebih luas untuk menyebarkan aplikasi berbasis web dengan menggunakan teknologi seperti PHP, MySQL, dan JavaScript.';
+$lang['web_server_app_name'] = 'web Server';
+$lang['web_server_configure_default_web_site'] = 'Mengkonfigurasi Default Web Site';
+$lang['web_server_custom_configuration'] = 'Konfigurasi kustom';
+$lang['web_server_custom_configuration_warning'] = 'Sebuah file konfigurasi lama atau kustom terdeteksi, namun Anda masih dapat mengkonfigurasi pengaturan akses upload menggunakan formulir web di bawah. Klik tombol ini untuk mulai menggunakan konfigurasi standar yang dihasilkan oleh aplikasi Web Server.';
+$lang['web_server_directory_alias'] = 'Direktori Alias';
+$lang['web_server_file_server_state_invalid'] = 'negara server file tidak valid.';
+$lang['web_server_file_server_upload'] = 'Berkas Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'negara FTP tidak valid.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Group di valid.';
+$lang['web_server_hostname_aliases'] = 'hostname Alias';
+$lang['web_server_live_site'] = 'hidup Site';
+$lang['web_server_review_standard_configuration'] = 'Tinjau Standard Configuration';
+$lang['web_server_server_name'] = 'Nama server';
+$lang['web_server_server_name_invalid'] = 'server nama yang tidak valid.';
+$lang['web_server_site_invalid'] = 'nama situs web tidak valid.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'Unggah Access';
+$lang['web_server_web_application'] = 'Aplikasi web';
+$lang['web_server_web_application_settings'] = 'Pengaturan Aplikasi web';
+$lang['web_server_web_applications'] = 'Aplikasi web';
+$lang['web_server_web_server'] = 'web Server';
+$lang['web_server_web_site'] = 'Situs web';
+$lang['web_server_web_site_hostname'] = 'Hostname Situs web';
+$lang['web_server_web_sites'] = 'Situs web';
