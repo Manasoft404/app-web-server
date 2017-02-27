@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Aliases';
+$lang['web_server_aliases_invalid'] = 'Aliases ubi bụ ghara ịdị irè.';
+$lang['web_server_app_description'] = 'The Web Server ngwa nwere ike ji mee ka ike mfe standalone ebe nrụọrụ weebụ ma ọ bụ dị ka akụkụ nke a nabatara umu akụrụngwa ka idokwa web-dabere na ngwa na-eji teknụzụ dị ka PHP, MySQL, na JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Hazi Default Web Site';
+$lang['web_server_custom_configuration'] = 'Custom nhazi';
+$lang['web_server_custom_configuration_warning'] = 'Otu agadi ma ọ bụ omenala nhazi faịlụ e achọpụtara, ma ị ka nwere ike hazi na bulite ohere ntọala na iji akwụkwọ weebụ n&#39;okpuru. Pịa ndị na-esonụ button malite iji ọkọlọtọ nhazi N&#39;ịbụ Web Server ngwa.';
+$lang['web_server_directory_alias'] = 'Directory utu aha';
+$lang['web_server_file_server_state_invalid'] = 'File ihe nkesa na ala bụ ghara ịdị irè.';
+$lang['web_server_file_server_upload'] = 'Njikwa Server Bulite';
+$lang['web_server_ftp_state_invalid'] = 'FTP ala bụ ghara ịdị irè.';
+$lang['web_server_ftp_upload'] = 'FTP Bulite';
+$lang['web_server_group_invalid'] = 'Group na ghara ịdị irè.';
+$lang['web_server_hostname_aliases'] = 'hostname Aliases';
+$lang['web_server_live_site'] = 'Live Site';
+$lang['web_server_review_standard_configuration'] = 'Nyochaa Standard nhazi';
+$lang['web_server_server_name'] = 'Server aha';
+$lang['web_server_server_name_invalid'] = 'Ghara ịdị irè aha ihe nkesa.';
+$lang['web_server_site_invalid'] = 'Web saịtị aha bụ ghara ịdị irè.';
+$lang['web_server_test_site'] = 'Test Site';
+$lang['web_server_upload_access'] = 'bulite Access';
+$lang['web_server_web_application'] = 'Web Ngwa';
+$lang['web_server_web_application_settings'] = 'Web Ngwa Settings';
+$lang['web_server_web_applications'] = 'Web Ngwa';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Web Site Hostname';
+$lang['web_server_web_sites'] = 'Web Sites';
