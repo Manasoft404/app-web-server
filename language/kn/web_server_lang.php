@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ಅಲಿಯಾಸ್';
+$lang['web_server_aliases_invalid'] = 'ಅಲಿಯಾಸ್ ಕ್ಷೇತ್ರವು ಅಮಾನ್ಯವಾಗಿದೆ.';
+$lang['web_server_app_description'] = 'ವೆಬ್ ಸರ್ವರ್ ಅಪ್ಲಿಕೇಶನ್ ಅಥವಾ ಸರಳ ಸ್ವತಂತ್ರ ವೆಬ್ ಸೈಟ್ಗಳನ್ನು ರಚಿಸಲು ಬಳಸಬಹುದು ಪಿಎಚ್ಪಿ, MySQL, ಮತ್ತು ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ನಂತಹ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಬಳಸಿಕೊಂಡು ವೆಬ್ ಆಧರಿತ ಅನ್ವಯಗಳ ನಿಯೋಜಿಸಲು ವಿಶಾಲ ಮೂಲಸೌಕರ್ಯ ಭಾಗವಾಗಿ.';
+$lang['web_server_app_name'] = 'ವೆಬ್ ಸರ್ವರ್';
+$lang['web_server_configure_default_web_site'] = 'ಡೀಫಾಲ್ಟ್ ವೆಬ್ ಸೈಟ್ ಸಂರಚಿಸಲು';
+$lang['web_server_custom_configuration'] = 'ಕಸ್ಟಮ್ ಸಂರಚನೆ';
+$lang['web_server_custom_configuration_warning'] = 'ಹಳೆಯ ಅಥವಾ ಕಸ್ಟಮ್ ಸಂರಚನಾ ಕಡತವನ್ನು ಪತ್ತೆ, ಆದರೆ ನೀವು ಇನ್ನೂ ಕೆಳಗೆ ವೆಬ್ ಫಾರ್ಮ್ ಬಳಸುವ ಅಪ್ಲೋಡ್ ಪ್ರವೇಶ ಸಂಯೋಜನೆಗಳನ್ನು ಸಂರಚಿಸಬಹುದು. ವೆಬ್ ಸರ್ವರ್ ಅಪ್ಲಿಕೇಶನ್ ರಚಿತವಾದ ಪ್ರಮಾಣಿತ ಸಂರಚನಾ ಬಳಸಿಕೊಂಡು ಆರಂಭಿಸಲು ಕೆಳಗಿನ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.';
+$lang['web_server_directory_alias'] = 'ಡೈರೆಕ್ಟರಿ ಅಲಿಯಾಸ್';
+$lang['web_server_file_server_state_invalid'] = 'ಫೈಲ್ ಸರ್ವರ್ ರಾಜ್ಯದ ಅಮಾನ್ಯವಾಗಿದೆ.';
+$lang['web_server_file_server_upload'] = 'ಫೈಲ್ ಸರ್ವರ್ ಅಪ್ಲೋಡ್';
+$lang['web_server_ftp_state_invalid'] = 'FTP ಯ ರಾಜ್ಯದ ಅಮಾನ್ಯವಾಗಿದೆ.';
+$lang['web_server_ftp_upload'] = 'ಅಪ್ಲೋಡ್ FTP';
+$lang['web_server_group_invalid'] = 'ಅಮಾನ್ಯವಾಗಿದೆ ಗುಂಪು.';
+$lang['web_server_hostname_aliases'] = 'ಆತಿಥೇಯ ಅಲಿಯಾಸ್ಗಳಿಗಾಗಿ';
+$lang['web_server_live_site'] = 'ಲೈವ್ ಸೈಟ್';
+$lang['web_server_review_standard_configuration'] = 'ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಸಂರಚನೆ ಪರಿಶೀಲಿಸಿ';
+$lang['web_server_server_name'] = 'ಸರ್ವರ್ ಹೆಸರು';
+$lang['web_server_server_name_invalid'] = 'ಅಮಾನ್ಯ ಸರ್ವರ್ ಹೆಸರು.';
+$lang['web_server_site_invalid'] = 'ವೆಬ್ ಸೈಟ್ ಹೆಸರು ಅಮಾನ್ಯವಾಗಿದೆ.';
+$lang['web_server_test_site'] = 'ಟೆಸ್ಟ್ ಸೈಟ್';
+$lang['web_server_upload_access'] = 'ಪ್ರವೇಶ ಅಪ್ಲೋಡ್';
+$lang['web_server_web_application'] = 'ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್';
+$lang['web_server_web_application_settings'] = 'ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್ಗಳ';
+$lang['web_server_web_applications'] = 'ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್ಗಳು';
+$lang['web_server_web_server'] = 'ವೆಬ್ ಸರ್ವರ್';
+$lang['web_server_web_site'] = 'ವೆಬ್ ಸೈಟ್';
+$lang['web_server_web_site_hostname'] = 'ವೆಬ್ ಸೈಟ್ ಆತಿಥೇಯ';
+$lang['web_server_web_sites'] = 'ವೆಬ್ ಸೈಟ್ಗಳು';
