@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ingoakē';
+$lang['web_server_aliases_invalid'] = 'He muhu ingoakē mara.';
+$lang['web_server_app_description'] = 'Ka taea te whakamahi i te taupānga Tūmau Tukutuku ki te waihanga pae tukutuku tūkotahi ohie ranei hei wāhanga o te hanganga whānui ki te tohatoha tono e hāngai ana web-whakamahi hangarau rite PHP, MySQL, ko JavaScript.';
+$lang['web_server_app_name'] = 'Tūmau tukutuku';
+$lang['web_server_configure_default_web_site'] = 'Whirihoratia Pae Tukutuku Taunoa';
+$lang['web_server_custom_configuration'] = 'Whirihoranga ritenga';
+$lang['web_server_custom_configuration_warning'] = 'I kitea he kōnae whirihoranga tawhito ritenga ranei, engari ka taea e tonu koe te whirihora i te tautuhinga tukunga uru whakamahi i te puka tukutuku i raro nei. Pāwhiritia i runga i te pātene e whai ake nei ki te tīmata te whakamahi i te whirihoranga paerewa hangaia e te taupānga Tūmau Tukutuku.';
+$lang['web_server_directory_alias'] = 'Ingoakē Whaiaronga';
+$lang['web_server_file_server_state_invalid'] = 'He muhu āhua tūmau Kōnae.';
+$lang['web_server_file_server_upload'] = 'Kōnae Tūmau Tukuatu';
+$lang['web_server_ftp_state_invalid'] = 'He muhu āhua FTP.';
+$lang['web_server_ftp_upload'] = 'FTP Tukuatu';
+$lang['web_server_group_invalid'] = 'Rōpū i roto i te muhu.';
+$lang['web_server_hostname_aliases'] = 'pūtaurima ingoakē';
+$lang['web_server_live_site'] = 'pae Live';
+$lang['web_server_review_standard_configuration'] = 'Faahou i Whirihoranga Paerewa';
+$lang['web_server_server_name'] = 'ingoa tūmau';
+$lang['web_server_server_name_invalid'] = 'ingoa tūmau muhu.';
+$lang['web_server_site_invalid'] = 'He muhu te ingoa pae Tukutuku.';
+$lang['web_server_test_site'] = 'Test pae';
+$lang['web_server_upload_access'] = 'tukuatu Access';
+$lang['web_server_web_application'] = 'Taupānga tukutuku';
+$lang['web_server_web_application_settings'] = 'Tautuhinga Taupānga Tukutuku';
+$lang['web_server_web_applications'] = 'tono tukutuku';
+$lang['web_server_web_server'] = 'Tūmau tukutuku';
+$lang['web_server_web_site'] = 'pae tukutuku';
+$lang['web_server_web_site_hostname'] = 'Pūtaurima pae Tukutuku';
+$lang['web_server_web_sites'] = 'Ngā Pae tukutuku';
