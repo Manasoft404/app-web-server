@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Бүркеншік';
+$lang['web_server_aliases_invalid'] = 'Бүркеншік далалық жарамсыз болып табылады.';
+$lang['web_server_app_description'] = 'Веб-серверінің App қарапайым оқшау веб сайттарды жасау үшін пайдаланылатын немесе PHP, MySQL, және JavaScript сияқты технологияларды пайдалана отырып, веб-қосымшаларды өрістету кеңірек инфрақұрылымның бір бөлігі ретінде болады.';
+$lang['web_server_app_name'] = 'веб-серверінің';
+$lang['web_server_configure_default_web_site'] = 'Әдепкі торап конфигурациялау';
+$lang['web_server_custom_configuration'] = 'Custom Конфигурация';
+$lang['web_server_custom_configuration_warning'] = 'Ескі немесе теңшелетін конфигурация файлы анықталды, бірақ сіз әлі төменде веб-пішін арқылы жүктеу кіру параметрлерін баптай аласыз. Веб-серверінің App арқылы жасалған стандартты конфигурациясын пайдалана бастау үшін төмендегі батырмасын басыңыз.';
+$lang['web_server_directory_alias'] = 'Directory Alias';
+$lang['web_server_file_server_state_invalid'] = 'Файл сервер мемлекеттік жарамсыз болып табылады.';
+$lang['web_server_file_server_upload'] = 'Файл сервер жүктеу';
+$lang['web_server_ftp_state_invalid'] = 'FTP мемлекеттік жарамсыз болып табылады.';
+$lang['web_server_ftp_upload'] = 'FTP жүктеу';
+$lang['web_server_group_invalid'] = 'Күші жойылды Топ.';
+$lang['web_server_hostname_aliases'] = 'Хост атауы бүркеншік аты';
+$lang['web_server_live_site'] = 'Live Сайт';
+$lang['web_server_review_standard_configuration'] = 'Шолу Стандартты конфигурация';
+$lang['web_server_server_name'] = 'Сервер атауы';
+$lang['web_server_server_name_invalid'] = 'Жарамсыз сервер атауы.';
+$lang['web_server_site_invalid'] = 'Веб-сайт атауы жарамсыз болып табылады.';
+$lang['web_server_test_site'] = 'сынақ полигоны';
+$lang['web_server_upload_access'] = 'Access кері қотару';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Web Application параметрлері';
+$lang['web_server_web_applications'] = 'веб Бағдарламалар';
+$lang['web_server_web_server'] = 'веб-серверінің';
+$lang['web_server_web_site'] = 'веб-сайт';
+$lang['web_server_web_site_hostname'] = 'Веб-сайт Хост атауы';
+$lang['web_server_web_sites'] = 'веб сайттар';
