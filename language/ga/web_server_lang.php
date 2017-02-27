@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ailiasanna';
+$lang['web_server_aliases_invalid'] = 'tá réimse ailiasanna neamhbhailí.';
+$lang['web_server_app_description'] = 'Is féidir leis an app Freastalaí Gréasáin a úsáid chun a chruthú láithreáin ghréasáin simplí standalone nó mar chuid de bhonneagar leithne a imscaradh ar iarratais bunaithe ar an ngréasán ag baint úsáide as teicneolaíochtaí ar nós PHP, MySQL, agus JavaScript.';
+$lang['web_server_app_name'] = 'Freastalaí gréasáin';
+$lang['web_server_configure_default_web_site'] = 'Cumraigh Aontais Láithreán Gréasáin Réamhshocrú';
+$lang['web_server_custom_configuration'] = 'Cumraíocht Saincheaptha';
+$lang['web_server_custom_configuration_warning'] = 'aimsíodh comhad cumraíochta d&#39;aois nó saincheaptha, ach is féidir leat a chumrú fós ar an socruithe rochtana uaslódáil ag baint úsáide as an bhfoirm gréasáin thíos. Cliceáil ar an gcnaipe seo a leanas chun tús a úsáid a bhaint as an chumraíocht caighdeánach a ghineann an app Freastalaí Gréasáin.';
+$lang['web_server_directory_alias'] = 'eolaire Ailias';
+$lang['web_server_file_server_state_invalid'] = 'Is stát freastalaí comhad neamhbhailí.';
+$lang['web_server_file_server_upload'] = 'Comhad Server Upload';
+$lang['web_server_ftp_state_invalid'] = 'Is FTP stáit neamhbhailí.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Grúpa i neamhbhailí.';
+$lang['web_server_hostname_aliases'] = 'Óstainm Ailiasanna';
+$lang['web_server_live_site'] = 'Live suíomh';
+$lang['web_server_review_standard_configuration'] = 'Athbhreithniú Cumraíocht Simplí';
+$lang['web_server_server_name'] = 'Server Ainm';
+$lang['web_server_server_name_invalid'] = 'ainm freastalaí neamhbhailí.';
+$lang['web_server_site_invalid'] = 'ainm suíomh Gréasáin neamhbhailí.';
+$lang['web_server_test_site'] = 'suíomh tástála';
+$lang['web_server_upload_access'] = 'uaslódáil Rochtain';
+$lang['web_server_web_application'] = 'Iarratais Gréasáin';
+$lang['web_server_web_application_settings'] = 'Socruithe gréasáin';
+$lang['web_server_web_applications'] = 'Iarratais Gréasáin';
+$lang['web_server_web_server'] = 'Freastalaí gréasáin';
+$lang['web_server_web_site'] = 'Láithreán Gréasáin';
+$lang['web_server_web_site_hostname'] = 'Óstainm Láithreán Gréasáin';
+$lang['web_server_web_sites'] = 'Láithreáin Ghréasáin';
