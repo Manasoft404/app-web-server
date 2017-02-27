@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'Alias';
+$lang['web_server_aliases_invalid'] = 'champ Alias ​​est invalide.';
+$lang['web_server_app_description'] = 'L&#39;application de serveur Web peut être utilisé pour créer des sites Web autonomes simples ou dans le cadre d&#39;une infrastructure plus large pour déployer des applications basées sur le Web en utilisant des technologies telles que PHP, MySQL et JavaScript.';
+$lang['web_server_app_name'] = 'Serveur Web';
+$lang['web_server_configure_default_web_site'] = 'Configurer le site Web par défaut';
+$lang['web_server_custom_configuration'] = 'Configuration personnalisée';
+$lang['web_server_custom_configuration_warning'] = 'Un ancien fichier ou personnalisé configuration a été détectée, mais vous pouvez toujours configurer les paramètres d&#39;accès de téléchargement en utilisant le formulaire web ci-dessous. Cliquez sur le bouton ci-dessous pour commencer à utiliser la configuration standard générée par l&#39;application de serveur Web.';
+$lang['web_server_directory_alias'] = 'Répertoire Alias';
+$lang['web_server_file_server_state_invalid'] = 'l&#39;état du serveur de fichier est invalide.';
+$lang['web_server_file_server_upload'] = 'Serveur de fichiers Télécharger';
+$lang['web_server_ftp_state_invalid'] = 'état FTP est invalide.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Groupe invalide.';
+$lang['web_server_hostname_aliases'] = 'Alias ​​hostname';
+$lang['web_server_live_site'] = 'site en direct';
+$lang['web_server_review_standard_configuration'] = 'Passez en revue la configuration standard';
+$lang['web_server_server_name'] = 'Nom du serveur';
+$lang['web_server_server_name_invalid'] = 'nom de serveur non valide.';
+$lang['web_server_site_invalid'] = 'nom du site Web est invalide.';
+$lang['web_server_test_site'] = 'Site de test';
+$lang['web_server_upload_access'] = 'Télécharger Accès';
+$lang['web_server_web_application'] = 'Application Web';
+$lang['web_server_web_application_settings'] = 'Paramètres de l&#39;application Web';
+$lang['web_server_web_applications'] = 'Des applications Web';
+$lang['web_server_web_server'] = 'Serveur Web';
+$lang['web_server_web_site'] = 'Site Internet';
+$lang['web_server_web_site_hostname'] = 'Hostname Site Web';
+$lang['web_server_web_sites'] = 'Sites Internet';
