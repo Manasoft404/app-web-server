@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'ψευδώνυμα';
+$lang['web_server_aliases_invalid'] = 'πεδίο ψευδώνυμα δεν είναι έγκυρο.';
+$lang['web_server_app_description'] = 'Η εφαρμογή Web Server μπορεί να χρησιμοποιηθεί για να δημιουργήσετε μια απλή web sites αυτόνομο ή ως μέρος μιας ευρύτερης υποδομής για την ανάπτυξη web-based εφαρμογές που χρησιμοποιούν τεχνολογίες όπως PHP, MySQL, και JavaScript.';
+$lang['web_server_app_name'] = 'Web Server';
+$lang['web_server_configure_default_web_site'] = 'Διαμορφώστε Προεπιλεγμένη τοποθεσία Web';
+$lang['web_server_custom_configuration'] = 'Προσαρμοσμένη Διαμόρφωση';
+$lang['web_server_custom_configuration_warning'] = 'Ένα παλιό ή το έθιμο αρχείο ρυθμίσεων εντοπίστηκε, αλλά μπορείτε ακόμα να διαμορφώσετε τις ρυθμίσεις πρόσβασης αποστολής χρησιμοποιώντας το παρακάτω φόρμα ιστού. Κάντε κλικ στο παρακάτω κουμπί για να αρχίσετε να χρησιμοποιείτε το πρότυπο διαμόρφωσης που παράγεται από την εφαρμογή Web Server.';
+$lang['web_server_directory_alias'] = 'Κατάλογος Alias';
+$lang['web_server_file_server_state_invalid'] = 'κατάσταση διακομιστής αρχείων δεν είναι έγκυρο.';
+$lang['web_server_file_server_upload'] = 'File Server Ανεβάστε';
+$lang['web_server_ftp_state_invalid'] = 'κατάσταση FTP δεν είναι έγκυρο.';
+$lang['web_server_ftp_upload'] = 'FTP Upload';
+$lang['web_server_group_invalid'] = 'Ομάδα στο άκυρο.';
+$lang['web_server_hostname_aliases'] = 'Όνομα κεντρικού υπολογιστή Ψευδώνυμα';
+$lang['web_server_live_site'] = 'ζωντανά Ιστοσελίδα';
+$lang['web_server_review_standard_configuration'] = 'Επανεξέταση Τυπική διαμόρφωση';
+$lang['web_server_server_name'] = 'Ονομα διακομιστή';
+$lang['web_server_server_name_invalid'] = 'Μη έγκυρο όνομα διακομιστή.';
+$lang['web_server_site_invalid'] = 'Το όνομά ιστοσελίδα δεν είναι έγκυρο.';
+$lang['web_server_test_site'] = 'Χώρος δοκιμών';
+$lang['web_server_upload_access'] = 'Ανεβάστε Access';
+$lang['web_server_web_application'] = 'Web Application';
+$lang['web_server_web_application_settings'] = 'Ρυθμίσεις Web Application';
+$lang['web_server_web_applications'] = 'Διαδικτυακές Εφαρμογές';
+$lang['web_server_web_server'] = 'Web Server';
+$lang['web_server_web_site'] = 'Web Site';
+$lang['web_server_web_site_hostname'] = 'Όνομα κεντρικού υπολογιστή Web Site';
+$lang['web_server_web_sites'] = 'Ιστοσελίδες';
