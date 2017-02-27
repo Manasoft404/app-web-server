@@ -1,0 +1,30 @@
+<?php
+
+$lang['web_server_aliases'] = 'àlies';
+$lang['web_server_aliases_invalid'] = 'camp d&#39;àlies no és vàlid.';
+$lang['web_server_app_description'] = 'L&#39;aplicació Web Server es pot utilitzar per crear llocs web simples independents o com a part d&#39;una infraestructura més àmplia per implementar aplicacions basades en la web utilitzant tecnologies com PHP, MySQL i JavaScript.';
+$lang['web_server_app_name'] = 'servidor web';
+$lang['web_server_configure_default_web_site'] = 'Configura lloc web predeterminat';
+$lang['web_server_custom_configuration'] = 'configuració personalitzada';
+$lang['web_server_custom_configuration_warning'] = 'S&#39;ha detectat un fitxer de configuració anterior o costum, però encara es pot configurar els paràmetres d&#39;accés de càrrega utilitzant el formulari web a continuació. Feu clic al següent botó per començar a utilitzar la configuració estàndard generada per l&#39;aplicació de servidor web.';
+$lang['web_server_directory_alias'] = 'Alias ​​del directori';
+$lang['web_server_file_server_state_invalid'] = 'Estat del servidor d&#39;arxius no és vàlid.';
+$lang['web_server_file_server_upload'] = 'Servidor d&#39;arxius Pujar';
+$lang['web_server_ftp_state_invalid'] = 'Estat de FTP no és vàlid.';
+$lang['web_server_ftp_upload'] = 'carregar FTP';
+$lang['web_server_group_invalid'] = 'Grup d&#39;invàlid.';
+$lang['web_server_hostname_aliases'] = 'Els àlies de nom d&#39;amfitrió';
+$lang['web_server_live_site'] = 'lloc viu';
+$lang['web_server_review_standard_configuration'] = 'Revisar la configuració estàndard';
+$lang['web_server_server_name'] = 'Nom del servidor';
+$lang['web_server_server_name_invalid'] = 'nom del servidor no és vàlid.';
+$lang['web_server_site_invalid'] = 'nom del lloc web no és vàlid.';
+$lang['web_server_test_site'] = 'lloc de Proves';
+$lang['web_server_upload_access'] = 'puja Accés';
+$lang['web_server_web_application'] = 'aplicació web';
+$lang['web_server_web_application_settings'] = 'Configuració de l&#39;aplicació Web';
+$lang['web_server_web_applications'] = 'aplicacions web';
+$lang['web_server_web_server'] = 'servidor web';
+$lang['web_server_web_site'] = 'lloc web';
+$lang['web_server_web_site_hostname'] = 'Nom d&#39;amfitrió del lloc web';
+$lang['web_server_web_sites'] = 'llocs web';
