@@ -336,6 +336,7 @@ class Sites extends ClearOS_Controller
 
         $this->form_validation->set_policy('group', 'web_server/Httpd', 'validate_group', TRUE);
 
+        $this->form_validation->set_policy('folder_layout', 'flexshare/Flexshare', 'validate_web_folder_layout', TRUE);
         $this->form_validation->set_policy('web_access', 'flexshare/Flexshare', 'validate_web_access', TRUE);
         $this->form_validation->set_policy('require_authentication', 'flexshare/Flexshare', 'validate_web_require_authentication', TRUE);
         $this->form_validation->set_policy('ssl_certificate', 'flexshare/Flexshare', 'validate_web_ssl_certificate', TRUE);
@@ -354,6 +355,7 @@ class Sites extends ClearOS_Controller
         if ($this->input->post('submit') && ($form_ok === TRUE)) {
             $type = ($is_default) ? Httpd::TYPE_WEB_SITE_DEFAULT : Httpd::TYPE_WEB_SITE;
 
+            $options['folder_layout'] = $this->input->post('folder_layout');
             $options['web_access'] = $this->input->post('web_access');
             $options['require_authentication'] = $this->input->post('require_authentication');
             $options['show_index'] = $this->input->post('show_index');
@@ -412,6 +414,7 @@ class Sites extends ClearOS_Controller
             $data['file_available'] = clearos_app_installed('samba');
             $data['accessibility_options'] = $this->flexshare->get_web_access_options();
             $data['ssl_certificate_options'] = $this->flexshare->get_web_ssl_certificate_options();
+            $data['folder_layout_options'] = $this->flexshare->get_web_folder_layout_options();
 
             $data['site'] = $site;
 
@@ -433,6 +436,9 @@ class Sites extends ClearOS_Controller
 
         // Defaults
         $data['info']['WebEnabled'] = TRUE;
+
+        if (! isset($data['info']['WebFolderLayout']))
+            $data['info']['WebFolderLayout'] = Flexshare::FOLDER_LAYOUT_STANDARD;
 
         if (! isset($data['info']['WebAccess']))
             $data['info']['WebAccess'] = Flexshare::ACCESS_ALL;

@@ -76,6 +76,8 @@ if ($form_type === 'edit') {
     );
 }
 
+$read_only_folder_layout = ($is_default) ? TRUE : $read_only;
+
 ///////////////////////////////////////////////////////////////////////////////
 // Form
 ///////////////////////////////////////////////////////////////////////////////
@@ -111,6 +113,7 @@ echo fieldset_footer();
 //--------
 
 echo fieldset_header(lang('flexshare_options'));
+echo field_dropdown('folder_layout', $folder_layout_options, $info['WebFolderLayout'], lang('flexshare_web_folder_layout'), $read_only_folder_layout);
 echo field_dropdown('web_access', $accessibility_options, $info['WebAccess'], lang('flexshare_web_accessibility'), $read_only);
 echo field_toggle_enable_disable('require_authentication', $info['WebReqAuth'], lang('flexshare_web_require_authentication'), $read_only);
 echo field_dropdown('ssl_certificate', $ssl_certificate_options, $info['WebSslCertificate'], lang('certificate_manager_digital_certificate'), $read_only);

@@ -584,6 +584,8 @@ class Httpd extends Daemon
         else
             $comment = lang('web_server_web_site') . ' - ' . $site;
 
+        $folder_layout = (isset($options['folder_layout'])) ? $options['folder_layout'] : '';
+
         // FTP
         $flexshare->set_ftp_allow_passive($site, 1, Flexshare::FTP_PASV_MIN, Flexshare::FTP_PASV_MAX);
         $flexshare->set_ftp_override_port($site, 0, Flexshare::DEFAULT_PORT_FTP);
@@ -598,6 +600,7 @@ class Httpd extends Daemon
         $flexshare->set_file_enabled($site, $samba);
 
         // Web and Options
+        $flexshare->set_web_folder_layout($site, $folder_layout);
         $flexshare->set_web_server_alias($site, $aliases);
         $flexshare->set_web_realm($site, $comment);
 
