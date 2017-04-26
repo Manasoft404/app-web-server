@@ -25,7 +25,7 @@ Group: ClearOS/Libraries
 Requires: app-base-core
 Requires: app-certificate-manager >= 1:2.3.2
 Requires: app-network-core
-Requires: app-flexshare-core >= 1:2.1.20
+Requires: app-flexshare-core >= 1:2.3.4
 Requires: app-php-core >= 1:1.4.40
 Requires: httpd >= 2.2.15
 Requires: mod_authnz_external
@@ -91,6 +91,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/web_server/packaging
+%exclude /usr/clearos/apps/web_server/unify.json
 %dir /usr/clearos/apps/web_server
 %dir /var/clearos/web_server
 %dir /var/clearos/web_server/backup
