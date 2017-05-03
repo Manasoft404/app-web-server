@@ -1,7 +1,7 @@
 
 Name: app-web-server
 Epoch: 1
-Version: 2.3.1
+Version: 2.3.2
 Release: 1%{dist}
 Summary: Web Server
 License: GPLv3
@@ -14,6 +14,7 @@ Requires: app-accounts
 Requires: app-groups
 Requires: app-users
 Requires: app-network
+Requires: app-php-core >= 1:1.4.40
 
 %description
 The Web Server app can be used to create simple standalone web sites or as part of a broader infrastructure to deploy web-based applications using technologies like PHP, MySQL, and JavaScript.
@@ -26,7 +27,6 @@ Requires: app-base-core
 Requires: app-certificate-manager >= 1:2.3.2
 Requires: app-network-core
 Requires: app-flexshare-core >= 1:2.3.4
-Requires: app-php-core >= 1:1.4.40
 Requires: httpd >= 2.2.15
 Requires: mod_authnz_external
 Requires: mod_authz_unixgroup
