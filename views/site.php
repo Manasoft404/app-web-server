@@ -7,7 +7,7 @@
  * @package    web-server
  * @subpackage views
  * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2012 ClearFoundation
+ * @copyright  2012-2017 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/web_server/
  */
@@ -121,10 +121,16 @@ echo field_toggle_enable_disable('show_index', $info['WebShowIndex'], lang('flex
 echo field_toggle_enable_disable('follow_symlinks', $info['WebFollowSymLinks'], lang('flexshare_web_follow_symlinks'), $read_only);
 echo field_toggle_enable_disable('ssi', $info['WebAllowSSI'], lang('flexshare_web_allow_ssi'), $read_only);
 echo field_toggle_enable_disable('htaccess', $info['WebHtaccessOverride'], lang('flexshare_web_allow_htaccess'), $read_only);
+echo field_toggle_enable_disable('cgi', $info['WebCgi'], lang('flexshare_web_enable_cgi'), $read_only);
+echo fieldset_footer();
+
+// PHP
+//----
+
+echo fieldset_header('PHP');
+echo field_toggle_enable_disable('php', $info['WebPhp'], lang('flexshare_web_enable_php'), $read_only);
 if ($php_engines_installed)
     echo field_dropdown('php_engine', $php_engine_options, $info['WebPhpEngine'], lang('flexshare_php_engine'), $read_only);
-echo field_toggle_enable_disable('php', $info['WebPhp'], lang('flexshare_web_enable_php'), $read_only);
-echo field_toggle_enable_disable('cgi', $info['WebCgi'], lang('flexshare_web_enable_cgi'), $read_only);
 echo fieldset_footer();
 
 // Footer

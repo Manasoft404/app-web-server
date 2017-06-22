@@ -603,7 +603,6 @@ class Httpd extends Daemon
         $flexshare->set_web_folder_layout($site, $folder_layout);
         $flexshare->set_web_server_alias($site, $aliases);
         $flexshare->set_web_realm($site, $comment);
-        $flexshare->set_web_php_engine($site, $options['php_engine']);
 
         $flexshare->set_web_server_name($site, $site);
         // FIXME: is the server_name option below used?
@@ -647,8 +646,13 @@ class Httpd extends Daemon
         if (isset($options['htaccess']))
             $flexshare->set_web_htaccess_override($site, $options['htaccess']);
 
-        if (isset($options['php']))
+        if (isset($options['php'])) {
             $flexshare->set_web_php($site, $options['php']);
+            if ($options['php'])
+                $flexshare->set_web_php_engine($site, $options['php_engine']);
+            else
+                $flexshare->set_web_php_engine($site, '');
+        }
 
         if (isset($options['cgi']))
             $flexshare->set_web_cgi($site, $options['cgi']);

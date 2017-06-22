@@ -7,7 +7,7 @@
  * @package    web-server
  * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2012-2013 ClearFoundation
+ * @copyright  2012-2017 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/web_server/
  */
@@ -49,7 +49,7 @@ use \clearos\apps\flexshare\Flexshare as Flexshare;
  * @package    web-server
  * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2012-2013 ClearFoundation
+ * @copyright  2012-2017 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/web_server/
  */
