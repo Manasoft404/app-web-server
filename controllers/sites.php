@@ -314,6 +314,13 @@ class Sites extends ClearOS_Controller
         $this->load->library('flexshare/Flexshare');
         $this->load->factory('groups/Group_Manager_Factory');
 
+        if (clearos_load_library('php_engines/PHP_Engines')) {
+            $this->load->library('php_engines/PHP_Engines');
+            $data['php_engines_installed'] = TRUE;
+        } else {
+            $data['php_engines_installed'] = FALSE;
+        }
+
         // Set validation rules
         //---------------------
 
@@ -347,6 +354,9 @@ class Sites extends ClearOS_Controller
         $this->form_validation->set_policy('php', 'flexshare/Flexshare', 'validate_web_php', TRUE);
         $this->form_validation->set_policy('cgi', 'flexshare/Flexshare', 'validate_web_cgi', TRUE);
 
+        if ($data['php_engines_installed'])
+            $this->form_validation->set_policy('php_engine', 'php_engines/PHP_Engines', 'validate_engine', TRUE);
+
         $form_ok = $this->form_validation->run();
 
         // Handle form submit
@@ -363,6 +373,7 @@ class Sites extends ClearOS_Controller
             $options['ssi'] = $this->input->post('ssi');
             $options['htaccess'] = $this->input->post('htaccess');
             $options['php'] = $this->input->post('php');
+            $options['php_engine'] = $this->input->post('php_engine');
             $options['cgi'] = $this->input->post('cgi');
             $options['ssl_certificate'] = $this->input->post('ssl_certificate');
             $options['require_ssl'] = FALSE; // Hard code this for now
@@ -415,6 +426,9 @@ class Sites extends ClearOS_Controller
             $data['accessibility_options'] = $this->flexshare->get_web_access_options();
             $data['ssl_certificate_options'] = $this->flexshare->get_web_ssl_certificate_options();
             $data['folder_layout_options'] = $this->flexshare->get_web_folder_layout_options();
+
+            if ($data['php_engines_installed'])
+                $data['php_engine_options'] = $this->php_engines->get_engines();
 
             $data['site'] = $site;
 

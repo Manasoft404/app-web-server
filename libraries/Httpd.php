@@ -603,6 +603,7 @@ class Httpd extends Daemon
         $flexshare->set_web_folder_layout($site, $folder_layout);
         $flexshare->set_web_server_alias($site, $aliases);
         $flexshare->set_web_realm($site, $comment);
+        $flexshare->set_web_php_engine($site, $options['php_engine']);
 
         $flexshare->set_web_server_name($site, $site);
         // FIXME: is the server_name option below used?

@@ -121,6 +121,8 @@ echo field_toggle_enable_disable('show_index', $info['WebShowIndex'], lang('flex
 echo field_toggle_enable_disable('follow_symlinks', $info['WebFollowSymLinks'], lang('flexshare_web_follow_symlinks'), $read_only);
 echo field_toggle_enable_disable('ssi', $info['WebAllowSSI'], lang('flexshare_web_allow_ssi'), $read_only);
 echo field_toggle_enable_disable('htaccess', $info['WebHtaccessOverride'], lang('flexshare_web_allow_htaccess'), $read_only);
+if ($php_engines_installed)
+    echo field_dropdown('php_engine', $php_engine_options, $info['WebPhpEngine'], lang('flexshare_php_engine'), $read_only);
 echo field_toggle_enable_disable('php', $info['WebPhp'], lang('flexshare_web_enable_php'), $read_only);
 echo field_toggle_enable_disable('cgi', $info['WebCgi'], lang('flexshare_web_enable_cgi'), $read_only);
 echo fieldset_footer();
