@@ -47,7 +47,7 @@ clearos_load_language('web_server');
 // J A V A S C R I P T
 ///////////////////////////////////////////////////////////////////////////////
 
-header('Content-Type:application/x-javascript');
+header('Content-Type: application/x-javascript');
 ?>
 
 $(document).ready(function() {
