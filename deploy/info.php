@@ -45,7 +45,7 @@ $app['requires'] = array(
 $app['core_requires'] = array(
     'app-certificate-manager >= 1:2.3.2',
     'app-network-core',
-    'app-flexshare-core >= 1:2.3.4',
+    'app-flexshare-core >= 1:2.3.7',
     'httpd >= 2.2.15',
     'mod_authnz_external',
     'mod_authz_unixgroup',
