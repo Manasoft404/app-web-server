@@ -469,6 +469,9 @@ class Sites extends ClearOS_Controller
         if (! isset($data['info']['WebShowIndex']))
             $data['info']['WebShowIndex'] = TRUE;
 
+        if (! isset($data['info']['WebFollowSymLinks']))
+            $data['info']['WebFollowSymLinks'] = TRUE;
+
         if (! isset($data['info']['WebPhp']))
             $data['info']['WebPhp'] = TRUE;
 
