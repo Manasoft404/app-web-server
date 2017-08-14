@@ -452,7 +452,7 @@ class Sites extends ClearOS_Controller
         $data['info']['WebEnabled'] = TRUE;
 
         if (! isset($data['info']['WebFolderLayout']))
-            $data['info']['WebFolderLayout'] = Flexshare::FOLDER_LAYOUT_STANDARD;
+            $data['info']['WebFolderLayout'] = Flexshare::FOLDER_LAYOUT_SANDBOX;
 
         if (! isset($data['info']['WebAccess']))
             $data['info']['WebAccess'] = Flexshare::ACCESS_ALL;
