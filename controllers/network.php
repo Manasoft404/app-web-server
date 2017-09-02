@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Web server controller.
+ * OpenVPN server network check controller.
  *
  * @category   apps
  * @package    web-server
  * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2012 ClearFoundation
+ * @copyright  2017 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/web_server/
  */
@@ -30,61 +30,47 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////
+// B O O T S T R A P
+///////////////////////////////////////////////////////////////////////////////
+
+$bootstrap = getenv('CLEAROS_BOOTSTRAP') ? getenv('CLEAROS_BOOTSTRAP') : '/usr/clearos/framework/shared';
+require_once $bootstrap . '/bootstrap.php';
+
+///////////////////////////////////////////////////////////////////////////////
+// D E P E N D E N C I E S
+///////////////////////////////////////////////////////////////////////////////
+
+require clearos_app_base('network') . '/controllers/network_check.php';
+
+///////////////////////////////////////////////////////////////////////////////
 // C L A S S
 ///////////////////////////////////////////////////////////////////////////////
 
 /**
- * Web server controller.
+ * OpenVPN server network check controller.
  *
  * @category   apps
  * @package    web-server
  * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2012 ClearFoundation
+ * @copyright  2017 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/web_server/
  */
 
-class Web_Server extends ClearOS_Controller
+class Network extends Network_Check
 {
     /**
-     * Web server summary view.
-     *
-     * @return view
+     * Network check constructor.
      */
 
-    function index()
+    function __construct()
     {
-        // Show account status widget if we're not in a happy state
-        //---------------------------------------------------------
+        $rules = [
+            [ 'name' => 'HTTP', 'protocol' => 'TCP', 'port' => 80 ],
+            [ 'name' => 'HTTPS', 'protocol' => 'TCP', 'port' => 443 ],
+        ];
 
-        $this->load->module('accounts/status');
-
-        if ($this->status->unhappy()) {
-            $this->status->widget('web_server');
-            return;
-        }
-
-        // Show Certificate Manager widget if it is not initialized
-        //---------------------------------------------------------
-
-        $this->load->module('certificate_manager/certificate_status');
-
-        if (! $this->certificate_status->is_initialized()) {
-            $this->certificate_status->widget();
-            return;
-        }
-
-        // Load libraries
-        //---------------
-
-        $this->lang->load('web_server');
-
-        // Load views
-        //-----------
-
-        $views = array('web_server/server', 'web_server/network', 'web_server/settings', 'web_server/sites', 'web_server/webapps');
-
-        $this->page->view_forms($views, lang('web_server_app_name'));
+        parent::__construct('web_server', $rules);
     }
 }
