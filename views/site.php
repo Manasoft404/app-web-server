@@ -76,7 +76,12 @@ if ($form_type === 'edit') {
     );
 }
 
-$read_only_folder_layout = ($is_default) ? TRUE : $read_only;
+if ($is_default) {
+    $read_only_folder_layout = TRUE;
+    $info['WebFolderLayout'] = 'standard';
+} else {
+    $read_only_folder_layout = $read_only;
+}
 
 ///////////////////////////////////////////////////////////////////////////////
 // Form
