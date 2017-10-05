@@ -58,6 +58,7 @@ clearos_load_language('web_server');
 use \clearos\apps\base\Daemon as Daemon;
 use \clearos\apps\base\File as File;
 use \clearos\apps\base\Folder as Folder;
+use \clearos\apps\certificate_manager\Certificate_Manager as Certificate_Manager;
 use \clearos\apps\flexshare\Flexshare as Flexshare;
 use \clearos\apps\groups\Group_Factory as Group_Factory;
 use \clearos\apps\network\Hostname as Hostname;
@@ -65,6 +66,7 @@ use \clearos\apps\network\Hostname as Hostname;
 clearos_load_library('base/Daemon');
 clearos_load_library('base/File');
 clearos_load_library('base/Folder');
+clearos_load_library('certificate_manager/Certificate_Manager');
 clearos_load_library('flexshare/Flexshare');
 clearos_load_library('groups/Group_Factory');
 clearos_load_library('network/Hostname');
@@ -152,23 +154,23 @@ class Httpd extends Daemon
         // Create docroot folder
         //----------------------
 
-        if (($type === self::TYPE_WEB_SITE) || ($type === self::TYPE_WEB_SITE_DEFAULT)) {
-            $docroot = ($type == self::TYPE_WEB_SITE_DEFAULT) ? self::PATH_DEFAULT : self::PATH_VIRTUAL . '/' . $site;
+        $docroot = ($type == self::TYPE_WEB_SITE_DEFAULT) ? self::PATH_DEFAULT : self::PATH_VIRTUAL . '/' . $site;
 
-            $docroot_folder = new Folder($docroot);
+        $docroot_folder = new Folder($docroot);
 
-            if (! $docroot_folder->exists())
-                $docroot_folder->create('root', 'root', '0775');
-        }
+        if (! $docroot_folder->exists())
+            $docroot_folder->create('root', 'root', '0775');
 
         // Add Flexshare
         //--------------
 
-        $comment = lang('web_server_web_site') . ' - ' . $site;
+        $comment = (empty($options['comment'])) ? lang('web_server_web_site') . ' - ' . $site : $options['comment'];
+
+        $flex_type = ($type == self::TYPE_WEB_APP) ? Flexshare::TYPE_WEB_APP : Flexshare::TYPE_WEB_SITE;
 
         $flexshare = new Flexshare();
 
-        $flexshare->add_share($site, $comment, $group, $docroot, Flexshare::TYPE_WEB_SITE);
+        $flexshare->add_share($site, $comment, $group, $docroot, $flex_type);
 
         // Use set_site to do the rest
         //----------------------------
@@ -194,6 +196,117 @@ class Httpd extends Daemon
 
         $flexshare = new Flexshare();
         $flexshare->delete_share($site, FALSE);
+    }
+
+    /**
+     * Returns doc root.
+     *
+     * @return string doc root
+     */
+
+    function get_document_root($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        $docroot = $share['ShareDir'];
+
+        if ($share['WebFolderLayout'] == Flexshare::FOLDER_LAYOUT_SANDBOX)
+            $docroot .= '/html';
+
+        return $docroot;
+    }
+
+    /**
+     * Returns state of file access.
+     *
+     * @return boolean TRUE if FTP access is enabled
+     * @throws Engine_Exception
+     */
+
+    function get_file_state($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['FileEnabled'];
+    }
+
+    /**
+     * Returns state of FTP access.
+     *
+     * @return boolean TRUE if FTP access is enabled
+     * @throws Engine_Exception
+     */
+
+    function get_ftp_state($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['FtpEnabled'];
+    }
+
+    /**
+     * Returns configured group for access.
+     *
+     * @return string specified group for access
+     * @throws Engine_Exception
+     */
+
+    function get_group($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['ShareGroup'];
+    }
+
+
+    /**
+     * Returns configured SSL certificate.
+     *
+     * @return string SSL certificate name
+     * @throws Engine_Exception
+     */
+
+    function get_ssl_certificate($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['WebSslCertificate'];
+    }
+
+    /**
+     * Returns a list of valid web certificates for a flexshare.
+     *
+     * @return array
+     */
+
+    function get_ssl_certificate_options()
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $certificate_manager = new Certificate_Manager();
+        $certs = $certificate_manager->get_list();
+
+        return $certs;
     }
 
     /**
@@ -259,6 +372,26 @@ class Httpd extends Daemon
             $flexshare_type = Flexshare::TYPE_WEB_APP;
 
         return $flexshare->get_shares($type);
+    }
+
+    /**
+     * Returns a list of configured web apps.
+     *
+     * @param string $webapp web app type
+     *
+     * @return array list of web apps
+     *
+     * @throws Engine_Exception
+     */
+
+    function get_webapps($webapp = '')
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+        $shares = $flexshare->get_shares(Flexshare::TYPE_WEB_APP);
+
+        return $shares;
     }
 
     /**
@@ -422,6 +555,42 @@ class Httpd extends Daemon
     }
 
     /**
+     * Sets parameters for a webapp site.
+     *
+     * @param string $site        web site
+     * @param string $aliases     aliases
+     * @param string $group       group owner
+     * @param string $ftp         FTP enabled status
+     * @param string $samba       file enabled status
+     * @param string $certificate SSL certificate
+     *
+     * @return  void
+     * @throws  Engine_Exception
+     */
+
+    function set_webapp($site, $aliases, $group, $ftp, $samba, $certificate)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        Validation_Exception::is_valid($this->validate_site($site));
+        Validation_Exception::is_valid($this->validate_aliases($aliases));
+        Validation_Exception::is_valid($this->validate_group($group));
+        Validation_Exception::is_valid($this->validate_ftp_state($ftp));
+        Validation_Exception::is_valid($this->validate_file_state($samba));
+        Validation_Exception::is_valid($this->validate_ssl_certificate($certificate));
+
+        $flexshare = new Flexshare();
+
+        $flexshare->set_web_server_alias($site, $aliases);
+        $flexshare->set_group($site, $group);
+        $flexshare->set_ftp_enabled($site, $ftp);
+        $flexshare->set_file_enabled($site, $samba);
+        $flexshare->set_web_ssl_certificate($site, $certificate);
+
+        $flexshare->update_share($site, TRUE);
+    }
+
+    /**
      * Upgrade routine.
      *
      * @return void
@@ -467,7 +636,7 @@ class Httpd extends Daemon
     }
 
     /**
-     * Validation routine for flle server state.
+     * Validation routine for file server state.
      *
      * @param string $state state
      *
@@ -537,6 +706,19 @@ class Httpd extends Daemon
     {
         if (!preg_match("/^[A-Za-z0-9\.\-_]+$/", $server_name))
             return lang('web_server_server_name_invalid');
+    }
+
+    /**
+     * Validation routine for web SSL certificate.
+     *
+     * @param string $certificate SSL certificate name
+     *
+     * @return mixed void if web SSL certificate is valid, errmsg otherwise
+     */
+
+    function validate_ssl_certificate($certificate)
+    {
+        clearos_profile(__METHOD__, __LINE__);
     }
 
     ///////////////////////////////////////////////////////////////////////////

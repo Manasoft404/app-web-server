@@ -28,3 +28,5 @@ $lang['web_server_web_server'] = 'Web Server';
 $lang['web_server_web_site'] = 'Web Site';
 $lang['web_server_web_site_hostname'] = 'Web Site Hostname';
 $lang['web_server_web_sites'] = 'Web Sites';
+$lang['web_server_require_authentication'] = 'Require Authentication';
+$lang['web_server_security_settings'] = 'Security Settings';
