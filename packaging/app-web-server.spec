@@ -24,7 +24,7 @@ Summary: Web Server - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
-Requires: app-certificate-manager >= 1:2.4.0
+Requires: app-certificate-manager >= 1:2.4.5
 Requires: app-network-core >= 1:2.4.2
 Requires: app-flexshare-core >= 1:2.3.7
 Requires: httpd >= 2.2.15

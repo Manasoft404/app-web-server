@@ -43,7 +43,7 @@ $app['requires'] = array(
 );
 
 $app['core_requires'] = array(
-    'app-certificate-manager >= 1:2.4.0',
+    'app-certificate-manager >= 1:2.4.5',
     'app-network-core >= 1:2.4.2',
     'app-flexshare-core >= 1:2.3.7',
     'httpd >= 2.2.15',

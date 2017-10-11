@@ -201,6 +201,8 @@ class Httpd extends Daemon
     /**
      * Returns doc root.
      *
+     * @param string $site site
+     *
      * @return string doc root
      */
 
@@ -223,6 +225,8 @@ class Httpd extends Daemon
     /**
      * Returns state of file access.
      *
+     * @param string $site site
+     *
      * @return boolean TRUE if FTP access is enabled
      * @throws Engine_Exception
      */
@@ -240,6 +244,8 @@ class Httpd extends Daemon
 
     /**
      * Returns state of FTP access.
+     *
+     * @param string $site site
      *
      * @return boolean TRUE if FTP access is enabled
      * @throws Engine_Exception
@@ -259,6 +265,8 @@ class Httpd extends Daemon
     /**
      * Returns configured group for access.
      *
+     * @param string $site site
+     *
      * @return string specified group for access
      * @throws Engine_Exception
      */
@@ -274,9 +282,29 @@ class Httpd extends Daemon
         return $share['ShareGroup'];
     }
 
+    /**
+     * Returns site root.
+     *
+     * @param string $site site
+     *
+     * @return string site root
+     */
+
+    function get_site_root($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['ShareDir'];
+    }
 
     /**
      * Returns configured SSL certificate.
+     *
+     * @param string $site site
      *
      * @return string SSL certificate name
      * @throws Engine_Exception
@@ -719,6 +747,12 @@ class Httpd extends Daemon
     function validate_ssl_certificate($certificate)
     {
         clearos_profile(__METHOD__, __LINE__);
+
+        $certificate_manager = new Certificate_Manager();
+        $certs = $certificate_manager->get_list();
+
+        if (!array_key_exists($certificate, $certs))
+            return lang('certificate_manager_certificate_does_not_exist');
     }
 
     ///////////////////////////////////////////////////////////////////////////
