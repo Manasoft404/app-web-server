@@ -117,6 +117,17 @@ class Httpd extends Daemon
     const TYPE_WEB_SITE = 'web_site';
     const TYPE_WEB_SITE_DEFAULT = 'web_site_default';
 
+    // From Flexshare
+    const SERVER_USERNAME = 'apache';
+    const PERMISSIONS_SECURE = '0770';
+    const PERMISSIONS_THIRD_PARTY = '0775';
+    const FOLDER_LAYOUT_SANDBOX = 'sandbox';
+    const FOLDER_LAYOUT_STANDARD = 'standard';
+    const ACCESS_LAN = 0;
+    const ACCESS_ALL = 1;
+    const PHP_56 = 'rh-php56-php-fpm';
+    const PHP_70 = 'rh-php70-php-fpm';
+
     ///////////////////////////////////////////////////////////////////////////////
     // M E T H O D S
     ///////////////////////////////////////////////////////////////////////////////
@@ -181,21 +192,66 @@ class Httpd extends Daemon
     /**
      * Deletes a web site.
      *
-     * @param string $site site
+     * @param string  $site        site
+     * @param boolean $delete_data delete data falg
      *
      * @return void
      *
      * @throws Validation_Exception, Engine_Exception
      */
 
-    function delete_site($site)
+    function delete_site($site, $delete_data = FALSE)
     {
         clearos_profile(__METHOD__, __LINE__);
 
         Validation_Exception::is_valid($this->validate_site($site));
 
         $flexshare = new Flexshare();
-        $flexshare->delete_share($site, FALSE);
+        $flexshare->delete_share($site, $delete_data);
+
+        if ($delete_data) {
+            $folder = new Folder(self::PATH_VIRTUAL . '/' . $site);
+            if ($folder->exists())
+                $folder->delete(TRUE);
+        }
+    }
+
+    /**
+     * Returns existence of a web site.
+     *
+     * @param string $site site name
+     *
+     * @return boolean TRUE if share exists
+     * @throws Engine_Exception
+     */
+
+    function exists($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        return $flexshare->exists($site);
+    }
+
+    /**
+     * Returns state of file access.
+     *
+     * @param string $site site
+     *
+     * @return boolean TRUE if FTP access is enabled
+     * @throws Engine_Exception
+     */
+
+    function get_aliases($site)
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        $flexshare = new Flexshare();
+
+        $share = $flexshare->get_share($site);
+
+        return $share['WebServerAlias'];
     }
 
     /**
@@ -418,6 +474,16 @@ class Httpd extends Daemon
 
         $flexshare = new Flexshare();
         $shares = $flexshare->get_shares(Flexshare::TYPE_WEB_APP);
+
+        if (!empty($webapp)) {
+            $raw_shares = $shares;
+            $shares = array();
+
+            foreach ($raw_shares as $site => $details) {
+                if ($details['WebApp'] == $webapp)
+                    $shares[$site] = $details;
+            }
+        }
 
         return $shares;
     }
@@ -710,16 +776,22 @@ class Httpd extends Daemon
     /**
      * Validation routine for site.
      *
-     * @param string $site site
+     * @param string  $site         site
+     * @param boolean $check_exists check for the existence of site
      *
      * @return error message if site is invalid
      */
 
-    function validate_site($site)
+    function validate_site($site, $check_exists = FALSE)
     {
         // Allow underscores
         if (!preg_match("/^([0-9a-zA-Z\.\-_]+)$/", $site))
             return lang('web_server_site_invalid');
+
+        if ($check_exists) {
+            if ($this->exists($site))
+                return lang('web_server_site_exists');
+        }
     }
 
     /**
@@ -840,6 +912,12 @@ class Httpd extends Daemon
 
         if (isset($options['web_access']))
             $flexshare->set_web_access($site, $options['web_access']);
+
+        if (isset($options['webapp']))
+            $flexshare->set_web_webapp($site, $options['webapp']);
+
+        if (isset($options['system_permissions']))
+            $flexshare->set_system_permissions($site, $options['system_permissions']);
 
         if (isset($options['require_authentication']))
             $flexshare->set_web_require_authentication($site, $options['require_authentication']);

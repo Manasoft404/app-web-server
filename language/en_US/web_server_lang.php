@@ -19,6 +19,7 @@ $lang['web_server_review_standard_configuration'] = 'Review Standard Configurati
 $lang['web_server_server_name'] = 'Server Name';
 $lang['web_server_server_name_invalid'] = 'Invalid server name.';
 $lang['web_server_site_invalid'] = 'Web site name is invalid.';
+$lang['web_server_site_exists'] = 'Web site already exists.';
 $lang['web_server_test_site'] = 'Test Site';
 $lang['web_server_upload_access'] = 'Upload Access';
 $lang['web_server_web_application'] = 'Web Application';
