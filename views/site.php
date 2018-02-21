@@ -97,8 +97,14 @@ echo form_header(lang('base_settings'));
 //--------------------
 
 echo fieldset_header(lang('web_server_web_site'));
-echo field_input('site', $info['Name'], lang('web_server_web_site_hostname'), $site_read_only);
-echo field_input('aliases', $info['WebServerAlias'], lang('web_server_aliases'), $read_only);
+
+if ($form_type === 'add') {
+    echo field_input('site', $info['Name'], lang('web_server_web_site_hostname'), $site_read_only, array('placeholder' => 'example.org'));
+    echo field_input('aliases', $info['WebServerAlias'], lang('web_server_aliases'), $read_only, array('placeholder' => 'www.example.org example.com'));
+} else {
+    echo field_input('site', $info['Name'], lang('web_server_web_site_hostname'), $site_read_only);
+    echo field_input('aliases', $info['WebServerAlias'], lang('web_server_aliases'), $read_only);
+}
 
 echo fieldset_footer();
 
