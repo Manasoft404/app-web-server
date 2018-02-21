@@ -26,7 +26,7 @@ $options['require_authentication'] = FALSE;                 // Flag for managing
 $options['show_index'] = FALSE;                             // Flag for managing Apache "Indexes" option
 $options['follow_symlinks'] = TRUE;                         // Flag for managing Apache "FollowSymlinks" option
 $options['ssi'] = FALSE;                                    // Flag for managing Apache "IncludesNOExec" option
-$options['htaccess'] = TRUE;                                // Flag for managing .htacess support
+$options['htaccess'] = TRUE;                                // Flag for managing .htaccess support
 $options['cgi'] = FALSE;                                    // Flag for CGI support.
 $options['php'] = TRUE;                                     // Flag for managing PHP support
 $options['php_engine'] = 'rh-php70-php-fpm';                // PHP version.  See below.
@@ -43,7 +43,6 @@ $options['custom_configuration'] = FALSE;                   // Legacy.  Set to F
 // SSL Certificates
 // - sys-0-cert.pem: default self-signed certificate. Certificate Manager must be initialized first!
 // - www.example.com: the primary domain used in a Let's Encrypt certificate
-
 
 $httpd = new Httpd();
 $httpd->add_site(
