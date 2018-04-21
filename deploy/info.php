@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'web_server';
-$app['version'] = '2.4.7';
+$app['version'] = '2.5.0';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -36,6 +36,7 @@ $app['controllers']['sites']['title'] = lang('web_server_web_sites');
 // app-php-core creates circular dep, so use 'requires' instead of 'core_requires'
 $app['requires'] = array(
     'app-accounts',
+    'app-certificate-manager',
     'app-groups',
     'app-users',
     'app-network',
@@ -43,7 +44,7 @@ $app['requires'] = array(
 );
 
 $app['core_requires'] = array(
-    'app-certificate-manager >= 1:2.4.5',
+    'app-certificate-manager-core >= 1:2.4.5',
     'app-network-core >= 1:2.4.2',
     'app-flexshare-core >= 1:2.4.5',
     'httpd >= 2.2.15',

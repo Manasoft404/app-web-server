@@ -1,16 +1,19 @@
 
 Name: app-web-server
 Epoch: 1
-Version: 2.4.7
+Version: 2.5.0
 Release: 1%{dist}
 Summary: Web Server
 License: GPLv3
-Group: ClearOS/Apps
+Group: Applications/Apps
+Packager: ClearFoundation
+Vendor: ClearFoundation
 Source: %{name}-%{version}.tar.gz
 Buildarch: noarch
 Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 Requires: app-accounts
+Requires: app-certificate-manager
 Requires: app-groups
 Requires: app-users
 Requires: app-network
@@ -20,11 +23,11 @@ Requires: app-php-core >= 1:1.4.40
 The Web Server app can be used to create simple standalone web sites or as part of a broader infrastructure to deploy web-based applications using technologies like PHP, MySQL, and JavaScript.
 
 %package core
-Summary: Web Server - Core
+Summary: Web Server - API
 License: LGPLv3
-Group: ClearOS/Libraries
+Group: Applications/API
 Requires: app-base-core
-Requires: app-certificate-manager >= 1:2.4.5
+Requires: app-certificate-manager-core >= 1:2.4.5
 Requires: app-network-core >= 1:2.4.2
 Requires: app-flexshare-core >= 1:2.4.5
 Requires: httpd >= 2.2.15
